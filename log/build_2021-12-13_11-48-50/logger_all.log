@@ -1,0 +1,1097 @@
+[0.290s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.290s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f943d9af940>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f943d9af940>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f943da50d90>)
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.295s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/legacy/trr_robot_ws'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ignore_ament_install'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_pkg']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_pkg'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['colcon_meta']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'colcon_meta'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot' with type 'ros.ament_python' and name 'robot'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extension 'cmake'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extension 'python'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extensions ['python_setup_py']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_interface) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_interface) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_interface) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_interface) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_interface) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_interface) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_interface) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_interface) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control/controller_interface' with type 'ros.ament_cmake' and name 'controller_interface'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager) by extension 'ignore'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager) by extension 'ignore_ament_install'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager) by extensions ['colcon_pkg']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control/controller_manager' with type 'ros.ament_cmake' and name 'controller_manager'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager_msgs) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager_msgs) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager_msgs) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager_msgs) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager_msgs) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager_msgs) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager_msgs) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/controller_manager_msgs) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control/controller_manager_msgs' with type 'ros.ament_cmake' and name 'controller_manager_msgs'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extension 'ros'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extensions ['cmake', 'python']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extension 'cmake'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extension 'python'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extensions ['python_setup_py']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/doc) by extension 'python_setup_py'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/hardware_interface) by extension 'ignore'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/hardware_interface) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/hardware_interface) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/hardware_interface) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/hardware_interface) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/hardware_interface) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/hardware_interface) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/hardware_interface) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control/hardware_interface' with type 'ros.ament_cmake' and name 'hardware_interface'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/joint_limits_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/joint_limits_interface) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/joint_limits_interface) ignored
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control) by extension 'ros'
+[0.317s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control/ros2_control' with type 'ros.ament_cmake' and name 'ros2_control'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control_test_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control_test_assets) by extension 'ignore'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control_test_assets) by extension 'ignore_ament_install'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control_test_assets) by extensions ['colcon_pkg']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control_test_assets) by extension 'colcon_pkg'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control_test_assets) by extensions ['colcon_meta']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control_test_assets) by extension 'colcon_meta'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control_test_assets) by extensions ['ros']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2_control_test_assets) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control/ros2_control_test_assets' with type 'ros.ament_cmake' and name 'ros2_control_test_assets'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2controlcli) by extensions ['ignore', 'ignore_ament_install']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2controlcli) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2controlcli) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2controlcli) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2controlcli) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2controlcli) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2controlcli) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2controlcli) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/ros2controlcli) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control/ros2controlcli' with type 'ros.ament_python' and name 'ros2controlcli'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/transmission_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/transmission_interface) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/transmission_interface) by extension 'ignore_ament_install'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/transmission_interface) by extensions ['colcon_pkg']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/transmission_interface) by extension 'colcon_pkg'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/transmission_interface) by extensions ['colcon_meta']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/transmission_interface) by extension 'colcon_meta'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/transmission_interface) by extensions ['ros']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control/transmission_interface) by extension 'ros'
+[0.321s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control/transmission_interface' with type 'ros.ament_cmake' and name 'transmission_interface'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'ignore'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'ros'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['cmake', 'python']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'cmake'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'python'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extensions ['python_setup_py']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos) by extension 'python_setup_py'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extension 'colcon_meta'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extensions ['ros']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extension 'ros'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extensions ['cmake', 'python']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extension 'cmake'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extension 'python'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extensions ['python_setup_py']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/doc) by extension 'python_setup_py'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_bringup) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_bringup) by extension 'ignore_ament_install'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_bringup) by extensions ['colcon_pkg']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_bringup) by extension 'colcon_pkg'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_bringup) by extensions ['colcon_meta']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_bringup) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_bringup) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_bringup) by extension 'ros'
+[0.323s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demos/ros2_control_demo_bringup' with type 'ros.ament_cmake' and name 'ros2_control_demo_bringup'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extensions ['ignore', 'ignore_ament_install']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extension 'ignore'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extension 'ros'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extensions ['cmake', 'python']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extension 'cmake'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extension 'python'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extensions ['python_setup_py']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description) by extension 'python_setup_py'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/diffbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/diffbot_description) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/diffbot_description) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/diffbot_description) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/diffbot_description) by extension 'colcon_pkg'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/diffbot_description) by extensions ['colcon_meta']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/diffbot_description) by extension 'colcon_meta'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/diffbot_description) by extensions ['ros']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/diffbot_description) by extension 'ros'
+[0.325s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demos/ros2_control_demo_description/diffbot_description' with type 'ros.ament_cmake' and name 'diffbot_description'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/rrbot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/rrbot_description) by extension 'ignore'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/rrbot_description) by extension 'ignore_ament_install'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/rrbot_description) by extensions ['colcon_pkg']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/rrbot_description) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/rrbot_description) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/rrbot_description) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/rrbot_description) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_description/rrbot_description) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demos/ros2_control_demo_description/rrbot_description' with type 'ros.ament_cmake' and name 'rrbot_description'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_hardware) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_hardware) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_hardware) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_hardware) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_hardware) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_hardware) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_hardware) by extension 'colcon_meta'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_hardware) by extensions ['ros']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demo_hardware) by extension 'ros'
+[0.327s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demos/ros2_control_demo_hardware' with type 'ros.ament_cmake' and name 'ros2_control_demo_hardware'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demos) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demos) by extension 'ignore_ament_install'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demos) by extensions ['colcon_pkg']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demos) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demos) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demos) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demos) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_demos) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demos/ros2_control_demos' with type 'ros.ament_cmake' and name 'ros2_control_demos'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_test_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_test_nodes) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_test_nodes) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_test_nodes) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_test_nodes) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_test_nodes) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_test_nodes) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_test_nodes) by extensions ['ros']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_control_demos/ros2_control_test_nodes) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_control_demos/ros2_control_test_nodes' with type 'ros.ament_python' and name 'ros2_control_test_nodes'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'python'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extensions ['python_setup_py']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extensions ['ros']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/diff_drive_controller) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/diff_drive_controller' with type 'ros.ament_cmake' and name 'diff_drive_controller'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'ros'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['cmake', 'python']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'cmake'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'python'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extensions ['python_setup_py']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/doc) by extension 'python_setup_py'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/effort_controllers) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/effort_controllers' with type 'ros.ament_cmake' and name 'effort_controllers'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'ignore'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'ignore_ament_install'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extensions ['colcon_pkg']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'colcon_meta'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extensions ['ros']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/force_torque_sensor_broadcaster) by extension 'ros'
+[0.334s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/force_torque_sensor_broadcaster' with type 'ros.ament_cmake' and name 'force_torque_sensor_broadcaster'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/forward_command_controller) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/forward_command_controller' with type 'ros.ament_cmake' and name 'forward_command_controller'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/gripper_controllers) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/gripper_controllers' with type 'ros.ament_cmake' and name 'gripper_controllers'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/imu_sensor_broadcaster) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/imu_sensor_broadcaster' with type 'ros.ament_cmake' and name 'imu_sensor_broadcaster'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extensions ['ignore', 'ignore_ament_install']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'ignore'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_state_broadcaster) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/joint_state_broadcaster' with type 'ros.ament_cmake' and name 'joint_state_broadcaster'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/joint_trajectory_controller) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/joint_trajectory_controller' with type 'ros.ament_cmake' and name 'joint_trajectory_controller'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/position_controllers) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/position_controllers' with type 'ros.ament_cmake' and name 'position_controllers'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/ros2_controllers) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/ros2_controllers' with type 'ros.ament_cmake' and name 'ros2_controllers'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extensions ['colcon_meta']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_controllers/velocity_controllers) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_controllers/velocity_controllers' with type 'ros.ament_cmake' and name 'velocity_controllers'
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.345s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_target' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.365s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.365s] DEBUG:colcon.colcon_core.verb:Building package 'controller_manager_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/controller_manager_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/controller_manager_msgs', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control/controller_manager_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_target' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.367s] Level 5:colcon.colcon_core.verb:set package 'diffbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.367s] DEBUG:colcon.colcon_core.verb:Building package 'diffbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/diffbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/diffbot_description', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.370s] Level 5:colcon.colcon_core.verb:set package 'robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.370s] DEBUG:colcon.colcon_core.verb:Building package 'robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/robot', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/robot', 'symlink_install': True, 'test_result_base': None}
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_target' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_clean_cache' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_clean_first' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_force_configure' from command line to 'False'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'ament_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'catkin_cmake_args' from command line to 'None'
+[0.372s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.372s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_test_assets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/ros2_control_test_assets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/ros2_control_test_assets', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control/ros2_control_test_assets', 'symlink_install': True, 'test_result_base': None}
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_nodes' build argument 'cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_nodes' build argument 'cmake_target' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_nodes' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_nodes' build argument 'cmake_clean_cache' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_nodes' build argument 'cmake_clean_first' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_nodes' build argument 'cmake_force_configure' from command line to 'False'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_nodes' build argument 'ament_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_nodes' build argument 'catkin_cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_nodes' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.375s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_test_nodes' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_test_nodes', 'symlink_install': True, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'rrbot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'rrbot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/rrbot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/rrbot_description', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/rrbot_description', 'symlink_install': True, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/hardware_interface', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control/hardware_interface', 'symlink_install': True, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'controller_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/controller_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/controller_interface', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control/controller_interface', 'symlink_install': True, 'test_result_base': None}
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_hardware' build argument 'cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_hardware' build argument 'cmake_target' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_hardware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_hardware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_hardware' build argument 'cmake_clean_first' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_hardware' build argument 'cmake_force_configure' from command line to 'False'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_hardware' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_hardware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_hardware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_hardware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware', 'symlink_install': True, 'test_result_base': None}
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_target' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.386s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.386s] DEBUG:colcon.colcon_core.verb:Building package 'transmission_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/transmission_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/transmission_interface', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control/transmission_interface', 'symlink_install': True, 'test_result_base': None}
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_target' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.388s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.388s] DEBUG:colcon.colcon_core.verb:Building package 'controller_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/controller_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/controller_manager', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control/controller_manager', 'symlink_install': True, 'test_result_base': None}
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_target' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.391s] Level 5:colcon.colcon_core.verb:set package 'diff_drive_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.391s] DEBUG:colcon.colcon_core.verb:Building package 'diff_drive_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/diff_drive_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/diff_drive_controller', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/diff_drive_controller', 'symlink_install': True, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'force_torque_sensor_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'force_torque_sensor_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/force_torque_sensor_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/force_torque_sensor_broadcaster', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/force_torque_sensor_broadcaster', 'symlink_install': True, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'forward_command_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'forward_command_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/forward_command_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/forward_command_controller', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/forward_command_controller', 'symlink_install': True, 'test_result_base': None}
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_target' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.398s] Level 5:colcon.colcon_core.verb:set package 'gripper_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.398s] DEBUG:colcon.colcon_core.verb:Building package 'gripper_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/gripper_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/gripper_controllers', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/gripper_controllers', 'symlink_install': True, 'test_result_base': None}
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'imu_sensor_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'imu_sensor_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/imu_sensor_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/imu_sensor_broadcaster', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/imu_sensor_broadcaster', 'symlink_install': True, 'test_result_base': None}
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_target' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_clean_cache' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_clean_first' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'cmake_force_configure' from command line to 'False'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'ament_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'catkin_cmake_args' from command line to 'None'
+[0.402s] Level 5:colcon.colcon_core.verb:set package 'joint_state_broadcaster' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.402s] DEBUG:colcon.colcon_core.verb:Building package 'joint_state_broadcaster' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/joint_state_broadcaster', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/joint_state_broadcaster', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/joint_state_broadcaster', 'symlink_install': True, 'test_result_base': None}
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_args' from command line to 'None'
+[0.404s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.405s] Level 5:colcon.colcon_core.verb:set package 'joint_trajectory_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.405s] DEBUG:colcon.colcon_core.verb:Building package 'joint_trajectory_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/joint_trajectory_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/joint_trajectory_controller', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller', 'symlink_install': True, 'test_result_base': None}
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_target' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.407s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.407s] DEBUG:colcon.colcon_core.verb:Building package 'ros2controlcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/ros2controlcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/ros2controlcli', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control/ros2controlcli', 'symlink_install': True, 'test_result_base': None}
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_target' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.409s] Level 5:colcon.colcon_core.verb:set package 'effort_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.409s] DEBUG:colcon.colcon_core.verb:Building package 'effort_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/effort_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/effort_controllers', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/effort_controllers', 'symlink_install': True, 'test_result_base': None}
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_args' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_target' from command line to 'None'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.411s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.412s] Level 5:colcon.colcon_core.verb:set package 'position_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.412s] DEBUG:colcon.colcon_core.verb:Building package 'position_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/position_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/position_controllers', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/position_controllers', 'symlink_install': True, 'test_result_base': None}
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.415s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.415s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/ros2_control', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control/ros2_control', 'symlink_install': True, 'test_result_base': None}
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_bringup' build argument 'cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_bringup' build argument 'cmake_target' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.417s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demo_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.417s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demo_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/ros2_control_demo_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/ros2_control_demo_bringup', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_bringup', 'symlink_install': True, 'test_result_base': None}
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_args' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_target' from command line to 'None'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.419s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.420s] Level 5:colcon.colcon_core.verb:set package 'velocity_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.420s] DEBUG:colcon.colcon_core.verb:Building package 'velocity_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/velocity_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/velocity_controllers', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/velocity_controllers', 'symlink_install': True, 'test_result_base': None}
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_target' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_clean_cache' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_clean_first' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'cmake_force_configure' from command line to 'False'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'ament_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'catkin_cmake_args' from command line to 'None'
+[0.422s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_demos' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.422s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_demos' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/ros2_control_demos', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/ros2_control_demos', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demos', 'symlink_install': True, 'test_result_base': None}
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_target' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.424s] Level 5:colcon.colcon_core.verb:set package 'ros2_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.424s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/legacy/trr_robot_ws/build/ros2_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/legacy/trr_robot_ws/install/ros2_controllers', 'merge_install': False, 'path': '/home/legacy/trr_robot_ws/src/ros2_controllers/ros2_controllers', 'symlink_install': True, 'test_result_base': None}
+[0.425s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.426s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.427s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/legacy/trr_robot_ws/src/ros2_control/ros2_control_test_assets' with build type 'ament_cmake'
+[0.427s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/legacy/trr_robot_ws/src/ros2_control/ros2_control_test_assets'
+[0.431s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.431s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.431s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.433s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.435s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/legacy/trr_robot_ws/src/ros2_control/controller_manager_msgs' with build type 'ament_cmake'
+[0.436s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/legacy/trr_robot_ws/src/ros2_control/controller_manager_msgs'
+[0.436s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.439s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.441s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description' with build type 'ament_cmake'
+[0.442s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description'
+[0.443s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.443s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.445s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.447s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_test_nodes' with build type 'ament_python'
+[0.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_test_nodes', 'ament_prefix_path')
+[0.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/hook/ament_prefix_path.ps1'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/hook/ament_prefix_path.dsv'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/hook/ament_prefix_path.sh'
+[0.452s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.452s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.453s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.456s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/rrbot_description' with build type 'ament_cmake'
+[0.457s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/rrbot_description'
+[0.458s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.458s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.460s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.462s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/legacy/trr_robot_ws/src/robot' with build type 'ament_python'
+[0.462s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'ament_prefix_path')
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/robot/share/robot/hook/ament_prefix_path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/robot/share/robot/hook/ament_prefix_path.dsv'
+[0.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/robot/share/robot/hook/ament_prefix_path.sh'
+[0.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.476s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control_test_assets
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/controller_manager_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/controller_manager_msgs
+[0.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/diffbot_description
+[0.934s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_test_nodes'
+[0.935s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.935s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.937s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.948s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/rrbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/rrbot_description
+[1.403s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/legacy/trr_robot_ws/src/robot'
+[1.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.409s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[1.436s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/legacy/trr_robot_ws/install/robot/share/ament_index/resource_index/packages/robot
+[1.437s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/legacy/trr_robot_ws/install/robot/share/robot/package.xml
+[1.437s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/legacy/trr_robot_ws/install/robot/share/robot/control_robot.launch.py
+[1.437s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/legacy/trr_robot_ws/install/robot/share/robot/gazebo_robot.launch.py
+[1.438s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/legacy/trr_robot_ws/install/robot/share/robot/display.launch.py
+[1.438s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/legacy/trr_robot_ws/install/robot/share/robot/trr.urdf.xml
+[1.438s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/legacy/trr_robot_ws/install/robot/share/robot/config_rviz.rviz
+[1.440s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/legacy/trr_robot_ws/install/robot/lib/robot/move_joints_gazebo
+[1.440s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/legacy/trr_robot_ws/install/robot/lib/robot/state_publisher
+[1.453s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --editable --build-directory /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/ros2_control_test_nodes
+[1.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/robot': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/robot --editable --build-directory /home/legacy/trr_robot_ws/build/robot/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/robot
+[1.966s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control_test_assets
+[1.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control_test_assets -- -j8 -l8
+[2.038s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control_test_assets -- -j8 -l8
+[2.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/ros2_control_test_assets
+[2.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/diffbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/diffbot_description
+[2.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/diffbot_description -- -j8 -l8
+[2.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/diffbot_description -- -j8 -l8
+[2.256s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/diffbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/diffbot_description
+[2.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_test_assets)
+[2.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/ros2_control_test_assets
+[2.453s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets' for CMake module files
+[2.454s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets' for CMake config files
+[2.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_test_assets', 'cmake_prefix_path')
+[2.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/hook/cmake_prefix_path.ps1'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/hook/cmake_prefix_path.dsv'
+[2.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/hook/cmake_prefix_path.sh'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/bin'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/lib/pkgconfig/ros2_control_test_assets.pc'
+[2.458s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/lib/python3.8/site-packages'
+[2.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.ps1'
+[2.461s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv'
+[2.462s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.sh'
+[2.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.bash'
+[2.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.zsh'
+[2.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/colcon-core/packages/ros2_control_test_assets)
+[2.510s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_test_assets)
+[2.513s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets' for CMake module files
+[2.514s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets' for CMake config files
+[2.515s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_test_assets', 'cmake_prefix_path')
+[2.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/hook/cmake_prefix_path.ps1'
+[2.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/hook/cmake_prefix_path.dsv'
+[2.518s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/hook/cmake_prefix_path.sh'
+[2.519s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/bin'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/lib/pkgconfig/ros2_control_test_assets.pc'
+[2.520s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/lib/python3.8/site-packages'
+[2.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.ps1'
+[2.523s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv'
+[2.524s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.sh'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.bash'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/package.zsh'
+[2.528s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/colcon-core/packages/ros2_control_test_assets)
+[2.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/legacy/trr_robot_ws/src/ros2_control/hardware_interface' with build type 'ament_cmake'
+[2.530s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/legacy/trr_robot_ws/src/ros2_control/hardware_interface'
+[2.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.536s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[2.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_description/rrbot_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/rrbot_description
+[2.551s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/rrbot_description -- -j8 -l8
+[2.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/hardware_interface
+[2.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/rrbot_description -- -j8 -l8
+[2.675s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/rrbot_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/rrbot_description
+[2.697s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffbot_description)
+[2.700s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description' for CMake module files
+[2.701s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/diffbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/diffbot_description
+[2.702s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description' for CMake config files
+[2.703s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffbot_description', 'cmake_prefix_path')
+[2.705s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.ps1'
+[2.706s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.dsv'
+[2.707s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.sh'
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description/bin'
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description/lib/pkgconfig/diffbot_description.pc'
+[2.708s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description/lib/python3.8/site-packages'
+[2.710s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.ps1'
+[2.711s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.dsv'
+[2.712s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.sh'
+[2.713s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.bash'
+[2.715s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.zsh'
+[2.715s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/diffbot_description/share/colcon-core/packages/diffbot_description)
+[2.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_test_nodes', 'pythonpath_develop')
+[2.731s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes/share/ros2_control_test_nodes/hook/pythonpath_develop.ps1'
+[2.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --editable --build-directory /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/ros2_control_test_nodes
+[2.733s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes/share/ros2_control_test_nodes/hook/pythonpath_develop.dsv'
+[2.733s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes/share/ros2_control_test_nodes/hook/pythonpath_develop.sh'
+[2.735s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes' for CMake module files
+[2.736s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes' for CMake config files
+[2.737s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/bin'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/pkgconfig/ros2_control_test_nodes.pc'
+[2.738s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages'
+[2.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_test_nodes', 'pythonpath')
+[2.739s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/hook/pythonpath.ps1'
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/hook/pythonpath.dsv'
+[2.740s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/hook/pythonpath.sh'
+[2.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_test_nodes)
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/package.ps1'
+[2.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/package.dsv'
+[2.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/package.sh'
+[2.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/package.bash'
+[2.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/ros2_control_test_nodes/package.zsh'
+[2.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/share/colcon-core/packages/ros2_control_test_nodes)
+[2.748s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath_develop')
+[2.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/build/robot/share/robot/hook/pythonpath_develop.ps1'
+[2.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/robot' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/robot --editable --build-directory /home/legacy/trr_robot_ws/build/robot/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/robot
+[2.752s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/build/robot/share/robot/hook/pythonpath_develop.dsv'
+[2.753s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/build/robot/share/robot/hook/pythonpath_develop.sh'
+[2.754s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/robot' for CMake module files
+[2.755s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/robot' for CMake config files
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/robot/lib'
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/robot/bin'
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/robot/lib/pkgconfig/robot.pc'
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages'
+[2.756s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot', 'pythonpath')
+[2.757s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/robot/share/robot/hook/pythonpath.ps1'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/robot/share/robot/hook/pythonpath.dsv'
+[2.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/robot/share/robot/hook/pythonpath.sh'
+[2.759s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot)
+[2.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/robot/share/robot/package.ps1'
+[2.761s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/robot/share/robot/package.dsv'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/robot/share/robot/package.sh'
+[2.762s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/robot/share/robot/package.bash'
+[2.763s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/robot/share/robot/package.zsh'
+[2.763s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/robot/share/colcon-core/packages/robot)
+[2.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(diffbot_description)
+[2.768s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description' for CMake module files
+[2.769s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description' for CMake config files
+[2.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('diffbot_description', 'cmake_prefix_path')
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.ps1'
+[2.771s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.dsv'
+[2.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/hook/cmake_prefix_path.sh'
+[2.772s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description/bin'
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description/lib/pkgconfig/diffbot_description.pc'
+[2.773s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/diffbot_description/lib/python3.8/site-packages'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.ps1'
+[2.774s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.dsv'
+[2.775s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.sh'
+[2.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.bash'
+[2.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/diffbot_description/share/diffbot_description/package.zsh'
+[2.777s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/diffbot_description/share/colcon-core/packages/diffbot_description)
+[3.134s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description)
+[3.135s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description' for CMake module files
+[3.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/rrbot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/rrbot_description
+[3.136s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description' for CMake config files
+[3.137s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'cmake_prefix_path')
+[3.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.ps1'
+[3.138s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.dsv'
+[3.139s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.sh'
+[3.139s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description/bin'
+[3.139s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description/lib/pkgconfig/rrbot_description.pc'
+[3.139s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description/lib/python3.8/site-packages'
+[3.140s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.ps1'
+[3.141s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.dsv'
+[3.141s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.sh'
+[3.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.bash'
+[3.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.zsh'
+[3.142s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/rrbot_description/share/colcon-core/packages/rrbot_description)
+[3.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rrbot_description)
+[3.171s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description' for CMake module files
+[3.172s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description' for CMake config files
+[3.172s] Level 1:colcon.colcon_core.shell:create_environment_hook('rrbot_description', 'cmake_prefix_path')
+[3.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.ps1'
+[3.173s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.dsv'
+[3.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/hook/cmake_prefix_path.sh'
+[3.175s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description/bin'
+[3.175s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description/lib/pkgconfig/rrbot_description.pc'
+[3.175s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/rrbot_description/lib/python3.8/site-packages'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.ps1'
+[3.176s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.dsv'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.sh'
+[3.177s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.bash'
+[3.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/rrbot_description/share/rrbot_description/package.zsh'
+[3.178s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/rrbot_description/share/colcon-core/packages/rrbot_description)
+[3.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/controller_manager_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/controller_manager_msgs
+[3.586s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/controller_manager_msgs -- -j8 -l8
+[5.719s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/hardware_interface
+[5.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/hardware_interface -- -j8 -l8
+[31.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/hardware_interface -- -j8 -l8
+[31.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/hardware_interface
+[31.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hardware_interface)
+[31.570s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface' for CMake module files
+[31.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/hardware_interface
+[31.571s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface' for CMake config files
+[31.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface', 'cmake_prefix_path')
+[31.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.ps1'
+[31.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.dsv'
+[31.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.sh'
+[31.573s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface/lib'
+[31.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface', 'ld_library_path_lib')
+[31.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.ps1'
+[31.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.dsv'
+[31.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.sh'
+[31.575s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface/bin'
+[31.575s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface/lib/pkgconfig/hardware_interface.pc'
+[31.575s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface/lib/python3.8/site-packages'
+[31.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.ps1'
+[31.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.dsv'
+[31.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.sh'
+[31.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.bash'
+[31.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.zsh'
+[31.577s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/hardware_interface/share/colcon-core/packages/hardware_interface)
+[31.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hardware_interface)
+[31.634s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface' for CMake module files
+[31.635s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface' for CMake config files
+[31.635s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface', 'cmake_prefix_path')
+[31.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.ps1'
+[31.636s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.dsv'
+[31.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/cmake_prefix_path.sh'
+[31.637s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface/lib'
+[31.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('hardware_interface', 'ld_library_path_lib')
+[31.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.ps1'
+[31.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.dsv'
+[31.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/hook/ld_library_path_lib.sh'
+[31.638s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface/bin'
+[31.639s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface/lib/pkgconfig/hardware_interface.pc'
+[31.639s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/hardware_interface/lib/python3.8/site-packages'
+[31.639s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.ps1'
+[31.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.dsv'
+[31.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.sh'
+[31.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.bash'
+[31.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.zsh'
+[31.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/hardware_interface/share/colcon-core/packages/hardware_interface)
+[31.642s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/legacy/trr_robot_ws/src/ros2_control/controller_interface' with build type 'ament_cmake'
+[31.642s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/legacy/trr_robot_ws/src/ros2_control/controller_interface'
+[31.642s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.642s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.644s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[31.647s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware' with build type 'ament_cmake'
+[31.647s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware'
+[31.648s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.648s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.649s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[31.653s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/legacy/trr_robot_ws/src/ros2_control/transmission_interface' with build type 'ament_cmake'
+[31.653s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/legacy/trr_robot_ws/src/ros2_control/transmission_interface'
+[31.654s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.654s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[31.656s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[31.665s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/controller_interface
+[31.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware
+[31.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/transmission_interface
+[34.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/transmission_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/transmission_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/transmission_interface
+[34.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/transmission_interface -- -j8 -l8
+[34.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/controller_manager_msgs -- -j8 -l8
+[34.994s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware
+[35.000s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware -- -j8 -l8
+[35.121s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/controller_manager_msgs
+[35.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/controller_interface
+[35.428s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/controller_interface -- -j8 -l8
+[45.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_manager_msgs)
+[45.844s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs' for CMake module files
+[45.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/controller_manager_msgs
+[45.847s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs' for CMake config files
+[45.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_manager_msgs', 'cmake_prefix_path')
+[45.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/cmake_prefix_path.ps1'
+[45.855s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/cmake_prefix_path.dsv'
+[45.856s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/cmake_prefix_path.sh'
+[45.857s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib'
+[45.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_manager_msgs', 'ld_library_path_lib')
+[45.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/ld_library_path_lib.ps1'
+[45.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/ld_library_path_lib.dsv'
+[45.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/ld_library_path_lib.sh'
+[45.862s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs/bin'
+[45.862s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/pkgconfig/controller_manager_msgs.pc'
+[45.862s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages'
+[45.863s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_manager_msgs', 'pythonpath')
+[45.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/pythonpath.ps1'
+[45.865s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/pythonpath.dsv'
+[45.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/pythonpath.sh'
+[45.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.ps1'
+[45.871s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv'
+[45.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.sh'
+[45.873s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.bash'
+[45.874s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.zsh'
+[45.875s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/colcon-core/packages/controller_manager_msgs)
+[46.491s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_manager_msgs)
+[46.493s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs' for CMake module files
+[46.495s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs' for CMake config files
+[46.500s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_manager_msgs', 'cmake_prefix_path')
+[46.501s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/cmake_prefix_path.ps1'
+[46.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/cmake_prefix_path.dsv'
+[46.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/cmake_prefix_path.sh'
+[46.505s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib'
+[46.505s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_manager_msgs', 'ld_library_path_lib')
+[46.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/ld_library_path_lib.ps1'
+[46.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/ld_library_path_lib.dsv'
+[46.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/ld_library_path_lib.sh'
+[46.509s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs/bin'
+[46.510s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/pkgconfig/controller_manager_msgs.pc'
+[46.510s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages'
+[46.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_manager_msgs', 'pythonpath')
+[46.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/pythonpath.ps1'
+[46.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/pythonpath.dsv'
+[46.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/hook/pythonpath.sh'
+[46.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.ps1'
+[46.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv'
+[46.520s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.sh'
+[46.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.bash'
+[46.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.zsh'
+[46.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/controller_manager_msgs/share/colcon-core/packages/controller_manager_msgs)
+[46.674s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware -- -j8 -l8
+[46.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware
+[47.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_hardware)
+[47.381s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware' for CMake module files
+[47.383s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware
+[47.384s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware' for CMake config files
+[47.385s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_hardware', 'cmake_prefix_path')
+[47.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/cmake_prefix_path.ps1'
+[47.388s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/cmake_prefix_path.dsv'
+[47.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/cmake_prefix_path.sh'
+[47.390s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/lib'
+[47.391s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_hardware', 'ld_library_path_lib')
+[47.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/ld_library_path_lib.ps1'
+[47.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/ld_library_path_lib.dsv'
+[47.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/ld_library_path_lib.sh'
+[47.395s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/bin'
+[47.395s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/lib/pkgconfig/ros2_control_demo_hardware.pc'
+[47.395s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/lib/python3.8/site-packages'
+[47.397s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.ps1'
+[47.399s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.dsv'
+[47.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.sh'
+[47.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.bash'
+[47.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.zsh'
+[47.402s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/colcon-core/packages/ros2_control_demo_hardware)
+[47.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_demo_hardware)
+[47.489s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware' for CMake module files
+[47.490s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware' for CMake config files
+[47.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_hardware', 'cmake_prefix_path')
+[47.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/cmake_prefix_path.ps1'
+[47.495s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/cmake_prefix_path.dsv'
+[47.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/cmake_prefix_path.sh'
+[47.497s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/lib'
+[47.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_demo_hardware', 'ld_library_path_lib')
+[47.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/ld_library_path_lib.ps1'
+[47.500s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/ld_library_path_lib.dsv'
+[47.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/hook/ld_library_path_lib.sh'
+[47.502s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/bin'
+[47.502s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/lib/pkgconfig/ros2_control_demo_hardware.pc'
+[47.502s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/lib/python3.8/site-packages'
+[47.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.ps1'
+[47.505s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.dsv'
+[47.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.sh'
+[47.508s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.bash'
+[47.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.zsh'
+[47.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/colcon-core/packages/ros2_control_demo_hardware)
+[49.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/legacy/trr_robot_ws/build/transmission_interface' returned '2': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/transmission_interface -- -j8 -l8
+[49.848s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(transmission_interface)
+[49.849s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/transmission_interface' for CMake module files
+[49.850s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/transmission_interface' for CMake config files
+[49.850s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/transmission_interface/bin'
+[49.850s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/transmission_interface/lib/pkgconfig/transmission_interface.pc'
+[49.850s] Level 1:colcon.colcon_core.environment:checking '/home/legacy/trr_robot_ws/install/transmission_interface/lib/python3.8/site-packages'
+[49.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/transmission_interface/share/transmission_interface/package.ps1'
+[49.852s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/legacy/trr_robot_ws/install/transmission_interface/share/transmission_interface/package.dsv'
+[49.853s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/transmission_interface/share/transmission_interface/package.sh'
+[49.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/transmission_interface/share/transmission_interface/package.bash'
+[49.855s] INFO:colcon.colcon_core.shell:Creating package script '/home/legacy/trr_robot_ws/install/transmission_interface/share/transmission_interface/package.zsh'
+[49.855s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/legacy/trr_robot_ws/install/transmission_interface/share/colcon-core/packages/transmission_interface)
+[51.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[51.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[51.943s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[51.943s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[51.957s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[51.957s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[51.957s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[51.986s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[51.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/legacy/trr_robot_ws/install/local_setup.ps1'
+[51.988s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/legacy/trr_robot_ws/install/_local_setup_util_ps1.py'
+[51.990s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/legacy/trr_robot_ws/install/setup.ps1'
+[51.992s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/legacy/trr_robot_ws/install/local_setup.sh'
+[51.993s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/legacy/trr_robot_ws/install/_local_setup_util_sh.py'
+[51.993s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/legacy/trr_robot_ws/install/setup.sh'
+[51.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/legacy/trr_robot_ws/install/local_setup.bash'
+[51.996s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/legacy/trr_robot_ws/install/setup.bash'
+[51.998s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/legacy/trr_robot_ws/install/local_setup.zsh'
+[51.999s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/legacy/trr_robot_ws/install/setup.zsh'

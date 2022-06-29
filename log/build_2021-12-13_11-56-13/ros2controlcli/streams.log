@@ -1,0 +1,15 @@
+[1.160s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2controlcli': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2controlcli --editable --build-directory /home/legacy/trr_robot_ws/build/ros2controlcli/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/ros2controlcli
+[2.946s] running develop
+[2.961s] running egg_info
+[2.961s] writing ros2controlcli.egg-info/PKG-INFO
+[2.962s] writing dependency_links to ros2controlcli.egg-info/dependency_links.txt
+[2.962s] writing entry points to ros2controlcli.egg-info/entry_points.txt
+[2.963s] writing requirements to ros2controlcli.egg-info/requires.txt
+[2.963s] writing top-level names to ros2controlcli.egg-info/top_level.txt
+[3.063s] reading manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[3.072s] writing manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[3.187s] running build_ext
+[3.189s] Creating /home/legacy/trr_robot_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli.egg-link (link to .)
+[3.192s] 
+[3.192s] Installed /home/legacy/trr_robot_ws/build/ros2controlcli
+[3.193s] running install_data

@@ -1,0 +1,5 @@
+[0.051s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control_test_assets -- -j8 -l8
+[0.605s] CMake Error: The source directory "/home/legacy/trr_robot_ws/src/ros2_control/ros2_control_test_assets" does not exist.
+[0.605s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.606s] make: *** [Makefile:222: cmake_check_build_system] Error 1
+[0.642s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_test_assets' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control_test_assets -- -j8 -l8

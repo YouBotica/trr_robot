@@ -1,0 +1,10 @@
+[ 18%] Built target gmock_main
+[ 45%] Built target gmock
+[ 63%] Built target joint_state_broadcaster
+[ 72%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[ 90%] Built target test_joint_state_broadcaster
+/home/linuxbrew/.linuxbrew/bin/ld: /opt/ros/foxy/lib/libcontroller_manager.so: undefined reference to `controller_interface::ControllerInterface::get_current_state() const'
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/test_load_joint_state_broadcaster.dir/build.make:218: test_load_joint_state_broadcaster] Error 1
+make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/test_load_joint_state_broadcaster.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

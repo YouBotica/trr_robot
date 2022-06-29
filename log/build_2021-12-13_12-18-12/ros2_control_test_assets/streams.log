@@ -1,0 +1,8 @@
+[0.046s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control_test_assets
+[0.368s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.368s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.369s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.369s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.466s] -- Configuring done
+[0.466s] -- Generating done
+[0.467s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/ros2_control_test_assets

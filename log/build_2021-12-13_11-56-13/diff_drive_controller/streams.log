@@ -1,0 +1,16 @@
+[0.075s] Invoking command in '/home/legacy/trr_robot_ws/build/diff_drive_controller': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/diff_drive_controller -- -j8 -l8
+[1.027s] [ 13%] Built target gmock_main
+[1.028s] [ 33%] Built target gmock
+[1.028s] [ 60%] Built target diff_drive_controller
+[1.028s] [35m[1mScanning dependencies of target test_diff_drive_controller[0m
+[1.028s] [ 73%] Built target test_accumulator
+[1.028s] [ 80%] [32m[1mLinking CXX executable test_load_diff_drive_controller[0m
+[1.029s] [ 86%] [32mBuilding CXX object CMakeFiles/test_diff_drive_controller.dir/test/test_diff_drive_controller.cpp.o[0m
+[2.605s] /home/linuxbrew/.linuxbrew/bin/ld: /opt/ros/foxy/lib/libcontroller_manager.so: undefined reference to `controller_interface::ControllerInterface::get_current_state() const'
+[2.605s] collect2: error: ld returned 1 exit status
+[2.608s] make[2]: *** [CMakeFiles/test_load_diff_drive_controller.dir/build.make:233: test_load_diff_drive_controller] Error 1
+[2.608s] make[1]: *** [CMakeFiles/Makefile2:156: CMakeFiles/test_load_diff_drive_controller.dir/all] Error 2
+[2.609s] make[1]: *** Waiting for unfinished jobs....
+[10.094s] [ 93%] [32m[1mLinking CXX executable test_diff_drive_controller[0m
+[10.893s] [ 93%] Built target test_diff_drive_controller
+[10.894s] make: *** [Makefile:141: all] Error 2

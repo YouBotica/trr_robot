@@ -1,0 +1,5 @@
+[0.046s] Invoking command in '/home/legacy/trr_robot_ws/build/realtime_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/realtime_tools -- -j8 -l8
+[0.357s] CMake Error: The source directory "/home/legacy/trr_robot_ws/src/ros-controls/realtime_tools" does not exist.
+[0.358s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.358s] make: *** [Makefile:542: cmake_check_build_system] Error 1
+[0.363s] Invoked command in '/home/legacy/trr_robot_ws/build/realtime_tools' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/realtime_tools -- -j8 -l8

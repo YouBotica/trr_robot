@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.5.1-0-g916b5db  Build Version: 1.5.7152.31018
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="trr_sw">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-3.8164E-17 1.6653E-16 0.024227"
+        rpy="0 0 0" />
+      <mass
+        value="5.9753" />
+      <inertia
+        ixx="0.01684"
+        ixy="1.4981E-34"
+        ixz="5.8775E-36"
+        iyy="0.01684"
+        iyz="8.1244E-19"
+        izz="0.031227" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/legacy/trr_robot_ws/src/robot/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.36471 0.46667 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="pfile:///home/legacy/trr_robot_ws/src/robot/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Link_1">
+    <inertial>
+      <origin
+        xyz="-0.032205 -6.9389E-18 -2.7756E-17"
+        rpy="0 0 0" />
+      <mass
+        value="0.4077" />
+      <inertia
+        ixx="0.00016392"
+        ixy="-2.6101E-19"
+        ixz="-1.2761E-17"
+        iyy="0.0065725"
+        iyz="2.7105E-20"
+        izz="0.006541" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/legacy/trr_robot_ws/src/robot/meshes/Link_1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.91373 0.031373 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/legacy/trr_robot_ws/src/robot/meshes/Link_1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="T_joint"
+    type="continuous">
+    <origin
+      xyz="0 0 0.19042"
+      rpy="1.5526 -1.5708 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="Link_1" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+  <link
+    name="Link_2">
+    <inertial>
+      <origin
+        xyz="-8.3267E-17 0.0001 0.125"
+        rpy="0 0 0" />
+      <mass
+        value="0.2816" />
+      <inertia
+        ixx="0.0016463"
+        ixy="1.6941E-21"
+        ixz="8.7361E-19"
+        iyy="0.0016611"
+        iyz="-3.4169E-19"
+        izz="4.4153E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/legacy/trr_robot_ws/src/robot/meshes/Link_2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.91373 0.031373 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/legacy/trr_robot_ws/src/robot/meshes/Link_2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R1_joint"
+    type="continuous">
+    <origin
+      xyz="0.2426 0 0"
+      rpy="-1.5708 0 -1.5703" />
+    <parent
+      link="Link_1" />
+    <child
+      link="Link_2" />
+    <axis
+      xyz="0 1 0" />
+  </joint>
+  <link
+    name="Link_3">
+    <inertial>
+      <origin
+        xyz="-0.0002 -0.21077 2.2093E-14"
+        rpy="0 0 0" />
+      <mass
+        value="0.26359" />
+      <inertia
+        ixx="0.0037238"
+        ixy="-2.8402E-17"
+        ixz="-1.6277E-19"
+        iyy="9.0256E-05"
+        iyz="3.8454E-16"
+        izz="0.0037553" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/legacy/trr_robot_ws/src/robot/meshes/Link_3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 0.91373 0.031373 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="file:///home/legacy/trr_robot_ws/src/robot/meshes/Link_3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="R2_joint"
+    type="continuous">
+    <origin
+      xyz="0 0 0.25"
+      rpy="3.1412 0 -1.5708" />
+    <parent
+      link="Link_2" />
+    <child
+      link="Link_3" />
+    <axis
+      xyz="1 0 0" />
+  </joint>
+</robot>

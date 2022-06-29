@@ -1,0 +1,70 @@
+[0.059s] Invoking command in '/home/legacy/trr_robot_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_controllers/forward_command_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/forward_command_controller
+[0.555s] -- The C compiler identification is GNU 9.3.0
+[0.557s] -- The CXX compiler identification is GNU 9.3.0
+[0.557s] -- Check for working C compiler: /usr/bin/cc
+[0.557s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.557s] -- Detecting C compiler ABI info
+[0.557s] -- Detecting C compiler ABI info - done
+[0.557s] -- Detecting C compile features
+[0.558s] -- Detecting C compile features - done
+[0.558s] -- Check for working CXX compiler: /usr/bin/c++
+[0.711s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.714s] -- Detecting CXX compiler ABI info
+[0.898s] -- Detecting CXX compiler ABI info - done
+[0.928s] -- Detecting CXX compile features
+[0.929s] -- Detecting CXX compile features - done
+[0.936s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.986s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.990s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.382s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.430s] -- Found controller_interface: 1.2.0 (/home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/cmake)
+[1.509s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.524s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.648s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[1.709s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.859s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.260s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.263s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.265s] -- Looking for pthread.h
+[3.402s] -- Looking for pthread.h - found
+[3.403s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.533s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.534s] -- Looking for pthread_create in pthreads
+[3.626s] -- Looking for pthread_create in pthreads - not found
+[3.627s] -- Looking for pthread_create in pthread
+[3.764s] -- Looking for pthread_create in pthread - found
+[3.766s] -- Found Threads: TRUE  
+[4.414s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[4.667s] -- Found ament_cmake_gmock: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[4.671s] -- Found controller_manager: 0.8.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[4.891s] -- Found ros2_control_test_assets: 1.2.0 (/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[4.897s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.905s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[4.907s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.538s] -- Configuring done
+[5.733s] -- Generating done
+[5.738s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/forward_command_controller
+[5.773s] Invoked command in '/home/legacy/trr_robot_ws/build/forward_command_controller' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_controllers/forward_command_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/forward_command_controller
+[5.774s] Invoking command in '/home/legacy/trr_robot_ws/build/forward_command_controller': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/forward_command_controller -- -j8 -l8
+[5.917s] [35m[1mScanning dependencies of target gmock_main[0m
+[5.945s] [35m[1mScanning dependencies of target forward_command_controller[0m
+[5.951s] [35m[1mScanning dependencies of target gmock[0m
+[5.997s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[6.063s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[6.063s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.131s] [ 36%] [32mBuilding CXX object CMakeFiles/forward_command_controller.dir/src/forward_command_controller.cpp.o[0m
+[13.494s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[13.901s] [ 45%] Built target gmock_main
+[25.389s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[25.739s] [ 54%] Built target gmock
+[25.821s] [35m[1mScanning dependencies of target test_load_forward_command_controller[0m
+[26.093s] [ 63%] [32mBuilding CXX object CMakeFiles/test_load_forward_command_controller.dir/test/test_load_forward_command_controller.cpp.o[0m
+[33.227s] [ 72%] [32m[1mLinking CXX shared library libforward_command_controller.so[0m
+[34.612s] [ 72%] Built target forward_command_controller
+[37.942s] [ 81%] [32m[1mLinking CXX executable test_load_forward_command_controller[0m
+[39.803s] /home/linuxbrew/.linuxbrew/bin/ld: /opt/ros/foxy/lib/libcontroller_manager.so: undefined reference to `controller_interface::ControllerInterface::get_current_state() const'
+[39.803s] collect2: error: ld returned 1 exit status
+[39.806s] make[2]: *** [CMakeFiles/test_load_forward_command_controller.dir/build.make:233: test_load_forward_command_controller] Error 1
+[39.807s] make[1]: *** [CMakeFiles/Makefile2:126: CMakeFiles/test_load_forward_command_controller.dir/all] Error 2
+[39.807s] make: *** [Makefile:141: all] Error 2
+[39.829s] Invoked command in '/home/legacy/trr_robot_ws/build/forward_command_controller' returned '2': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/forward_command_controller -- -j8 -l8

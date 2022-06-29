@@ -1,0 +1,36 @@
+[ 11%] Built target realtime_tools
+[ 29%] Built target gmock
+[ 41%] Built target gmock_main
+[ 52%] Built target realtime_publisher_tests
+[ 64%] Built target realtime_buffer_tests
+[ 76%] Built target realtime_server_goal_handle_tests
+[ 88%] Built target realtime_box_tests
+[100%] Built target realtime_clock_tests
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/include/realtime_tools/realtime_box.h
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/include/realtime_tools/realtime_buffer.h
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/include/realtime_tools/realtime_clock.h
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/include/realtime_tools/realtime_publisher.h
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/include/realtime_tools/realtime_server_goal_handle.h
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/lib/librealtime_tools.a
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/environment/library_path.sh
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/environment/library_path.dsv
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/ament_index/resource_index/package_run_dependencies/realtime_tools
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/ament_index/resource_index/parent_prefix_path/realtime_tools
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.sh
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/environment/ament_prefix_path.dsv
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/environment/path.sh
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/environment/path.dsv
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/local_setup.bash
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/local_setup.sh
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/local_setup.zsh
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/local_setup.dsv
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/package.dsv
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/ament_index/resource_index/packages/realtime_tools
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig.cmake
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/cmake/realtime_toolsConfig-version.cmake
+-- Symlinking: /home/legacy/trr_robot_ws/install/realtime_tools/share/realtime_tools/package.xml

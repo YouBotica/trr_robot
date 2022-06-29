@@ -1,0 +1,11 @@
+[ 18%] Built target gmock_main
+[ 45%] Built target gmock
+[ 63%] Built target test_four_bar_linkage_transmission
+[ 72%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[ 90%] Built target test_differential_transmission
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control/transmission_interface/test/simple_transmission_test.cpp:162:25:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+  162 | INSTANTIATE_TEST_SUITE_P[01;31m[K([m[K
+      |                         [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/test_simple_transmission.dir/build.make:63: CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/test_simple_transmission.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

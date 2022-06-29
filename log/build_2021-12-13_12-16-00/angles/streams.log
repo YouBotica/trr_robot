@@ -1,0 +1,22 @@
+[0.055s] Invoking command in '/home/legacy/trr_robot_ws/build/angles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/angles/angles -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/angles
+[0.161s] -- The C compiler identification is GNU 9.3.0
+[0.260s] -- The CXX compiler identification is GNU 9.3.0
+[0.271s] -- Check for working C compiler: /usr/bin/cc
+[0.400s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.401s] -- Detecting C compiler ABI info
+[0.531s] -- Detecting C compiler ABI info - done
+[0.566s] -- Detecting C compile features
+[0.567s] -- Detecting C compile features - done
+[0.571s] -- Check for working CXX compiler: /usr/bin/c++
+[0.733s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.736s] -- Detecting CXX compiler ABI info
+[0.883s] -- Detecting CXX compiler ABI info - done
+[0.907s] -- Detecting CXX compile features
+[0.908s] -- Detecting CXX compile features - done
+[0.914s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.973s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.973s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.319s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.475s] -- Configuring done
+[1.478s] -- Generating done
+[1.479s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/angles

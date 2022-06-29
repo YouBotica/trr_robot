@@ -1,0 +1,26 @@
+[0.261s] Invoking command in '/home/legacy/trr_robot_ws/build/robot': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/robot --uninstall --editable --build-directory /home/legacy/trr_robot_ws/build/robot/build
+[0.505s] running develop
+[0.675s] Invoked command in '/home/legacy/trr_robot_ws/build/robot' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/robot --uninstall --editable --build-directory /home/legacy/trr_robot_ws/build/robot/build
+[0.676s] Invoking command in '/home/legacy/trr_robot_ws/src/robot': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/legacy/trr_robot_ws/build/robot/build install --prefix /home/legacy/trr_robot_ws/install/robot --record /home/legacy/trr_robot_ws/build/robot/install.log --single-version-externally-managed
+[0.905s] running egg_info
+[0.905s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[0.905s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[0.906s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[0.906s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[0.906s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[0.942s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.943s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.943s] running build
+[0.944s] running build_py
+[0.944s] running install
+[0.945s] running install_lib
+[0.946s] running install_data
+[0.946s] copying urdf/trr.urdf.xml -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.947s] running install_egg_info
+[0.948s] removing '/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info' (and everything under it)
+[0.949s] Copying ../../build/robot/robot.egg-info to /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info
+[0.949s] running install_scripts
+[0.967s] Installing move_joints_gazebo script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+[0.967s] Installing state_publisher script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+[0.967s] writing list of installed files to '/home/legacy/trr_robot_ws/build/robot/install.log'
+[0.986s] Invoked command in '/home/legacy/trr_robot_ws/src/robot' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/legacy/trr_robot_ws/build/robot/build install --prefix /home/legacy/trr_robot_ws/install/robot --record /home/legacy/trr_robot_ws/build/robot/install.log --single-version-externally-managed

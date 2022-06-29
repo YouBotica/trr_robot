@@ -1,0 +1,24 @@
+[0.547s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2controlcli': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2controlcli --editable --build-directory /home/legacy/trr_robot_ws/build/ros2controlcli/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/ros2controlcli
+[5.728s] running develop
+[5.729s] running egg_info
+[5.729s] creating ros2controlcli.egg-info
+[5.729s] writing ros2controlcli.egg-info/PKG-INFO
+[5.729s] writing dependency_links to ros2controlcli.egg-info/dependency_links.txt
+[5.729s] writing entry points to ros2controlcli.egg-info/entry_points.txt
+[5.729s] writing requirements to ros2controlcli.egg-info/requires.txt
+[5.730s] writing top-level names to ros2controlcli.egg-info/top_level.txt
+[5.730s] writing manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[5.730s] reading manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[5.730s] writing manifest file 'ros2controlcli.egg-info/SOURCES.txt'
+[5.730s] running build_ext
+[5.730s] Creating /home/legacy/trr_robot_ws/install/ros2controlcli/lib/python3.8/site-packages/site.py
+[5.730s] Creating /home/legacy/trr_robot_ws/install/ros2controlcli/lib/python3.8/site-packages/ros2controlcli.egg-link (link to .)
+[5.731s] 
+[5.731s] Installed /home/legacy/trr_robot_ws/build/ros2controlcli
+[5.731s] running install_data
+[5.731s] copying package.xml -> /home/legacy/trr_robot_ws/install/ros2controlcli/share/ros2controlcli
+[5.731s] creating /home/legacy/trr_robot_ws/install/ros2controlcli/share/ament_index
+[5.731s] creating /home/legacy/trr_robot_ws/install/ros2controlcli/share/ament_index/resource_index
+[5.731s] creating /home/legacy/trr_robot_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[5.732s] copying resource/ros2controlcli -> /home/legacy/trr_robot_ws/install/ros2controlcli/share/ament_index/resource_index/packages
+[5.755s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2controlcli' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2controlcli --editable --build-directory /home/legacy/trr_robot_ws/build/ros2controlcli/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/ros2controlcli

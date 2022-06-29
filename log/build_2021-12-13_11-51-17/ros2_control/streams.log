@@ -1,0 +1,24 @@
+[0.079s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/build/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control
+[0.410s] -- The C compiler identification is GNU 9.3.0
+[0.849s] -- The CXX compiler identification is GNU 9.3.0
+[0.876s] -- Check for working C compiler: /usr/bin/cc
+[1.303s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.305s] -- Detecting C compiler ABI info
+[1.954s] -- Detecting C compiler ABI info - done
+[2.051s] -- Detecting C compile features
+[2.062s] -- Detecting C compile features - done
+[2.081s] -- Check for working CXX compiler: /usr/bin/c++
+[2.900s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[2.903s] -- Detecting CXX compiler ABI info
+[3.852s] -- Detecting CXX compiler ABI info - done
+[3.989s] -- Detecting CXX compile features
+[3.990s] -- Detecting CXX compile features - done
+[4.021s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.343s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.348s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[5.967s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[6.892s] -- Configuring done
+[6.897s] -- Generating done
+[6.900s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/ros2_control
+[6.917s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/build/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/ros2_control -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control
+[6.919s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/build/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2controlcli/lib/python3.8/site-packages:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control -- -j8 -l8

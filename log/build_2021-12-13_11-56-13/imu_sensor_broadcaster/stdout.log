@@ -1,0 +1,5 @@
+[ 18%] Built target imu_sensor_broadcaster
+[ 45%] Built target gmock
+[ 63%] Built target gmock_main
+[ 81%] Built target test_imu_sensor_broadcaster
+[ 90%] [32m[1mLinking CXX executable test_load_imu_sensor_broadcaster[0m

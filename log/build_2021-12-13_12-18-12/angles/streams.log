@@ -1,0 +1,23 @@
+[0.051s] Invoking command in '/home/legacy/trr_robot_ws/build/angles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/angles -- -j8 -l8
+[0.361s] Invoked command in '/home/legacy/trr_robot_ws/build/angles' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/angles -- -j8 -l8
+[0.414s] Invoking command in '/home/legacy/trr_robot_ws/build/angles': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/angles
+[0.432s] -- Install configuration: ""
+[0.432s] -- Execute custom install script
+[0.433s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/ament_index/resource_index/package_run_dependencies/angles
+[0.450s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/ament_index/resource_index/parent_prefix_path/angles
+[0.465s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/environment/ament_prefix_path.sh
+[0.477s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/environment/ament_prefix_path.dsv
+[0.494s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/environment/path.sh
+[0.506s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/environment/path.dsv
+[0.520s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/local_setup.bash
+[0.532s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/local_setup.sh
+[0.544s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/local_setup.zsh
+[0.558s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/local_setup.dsv
+[0.571s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/package.dsv
+[0.584s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/ament_index/resource_index/packages/angles
+[0.597s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.612s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/cmake/anglesConfig.cmake
+[0.624s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/cmake/anglesConfig-version.cmake
+[0.636s] -- Symlinking: /home/legacy/trr_robot_ws/install/angles/share/angles/package.xml
+[0.649s] -- Installing: /home/legacy/trr_robot_ws/install/angles/include/angles/
+[0.649s] -- Installing: /home/legacy/trr_robot_ws/install/angles/include/angles//angles.h

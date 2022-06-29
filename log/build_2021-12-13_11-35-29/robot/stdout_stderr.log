@@ -1,0 +1,43 @@
+running egg_info
+creating ../../build/robot/robot.egg-info
+writing ../../build/robot/robot.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+writing requirements to ../../build/robot/robot.egg-info/requires.txt
+writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/legacy/trr_robot_ws/build/robot/build
+creating /home/legacy/trr_robot_ws/build/robot/build/lib
+creating /home/legacy/trr_robot_ws/build/robot/build/lib/robot
+copying robot/__init__.py -> /home/legacy/trr_robot_ws/build/robot/build/lib/robot
+copying robot/move_joints_gazebo.py -> /home/legacy/trr_robot_ws/build/robot/build/lib/robot
+copying robot/state_publisher.py -> /home/legacy/trr_robot_ws/build/robot/build/lib/robot
+running install
+running install_lib
+creating /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot
+copying /home/legacy/trr_robot_ws/build/robot/build/lib/robot/__init__.py -> /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot
+copying /home/legacy/trr_robot_ws/build/robot/build/lib/robot/move_joints_gazebo.py -> /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot
+copying /home/legacy/trr_robot_ws/build/robot/build/lib/robot/state_publisher.py -> /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot
+byte-compiling /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/__init__.py to __init__.cpython-38.pyc
+byte-compiling /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/move_joints_gazebo.py to move_joints_gazebo.cpython-38.pyc
+byte-compiling /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/state_publisher.py to state_publisher.cpython-38.pyc
+running install_data
+creating /home/legacy/trr_robot_ws/install/robot/share/ament_index
+creating /home/legacy/trr_robot_ws/install/robot/share/ament_index/resource_index
+creating /home/legacy/trr_robot_ws/install/robot/share/ament_index/resource_index/packages
+copying resource/robot -> /home/legacy/trr_robot_ws/install/robot/share/ament_index/resource_index/packages
+copying package.xml -> /home/legacy/trr_robot_ws/install/robot/share/robot
+copying launch/control_robot.launch.py -> /home/legacy/trr_robot_ws/install/robot/share/robot
+copying launch/gazebo_robot.launch.py -> /home/legacy/trr_robot_ws/install/robot/share/robot
+copying launch/display.launch.py -> /home/legacy/trr_robot_ws/install/robot/share/robot
+copying urdf/trr.urdf.xml -> /home/legacy/trr_robot_ws/install/robot/share/robot
+copying urdf/config_rviz.rviz -> /home/legacy/trr_robot_ws/install/robot/share/robot
+running install_egg_info
+Copying ../../build/robot/robot.egg-info to /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info
+running install_scripts
+Installing state_publisher = robot.state_publisher:mainmove_joints_gazebo script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+writing list of installed files to '/home/legacy/trr_robot_ws/build/robot/install.log'

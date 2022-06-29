@@ -1,0 +1,13 @@
+digraph G {
+"Link_1_pas" -> "Link_2"[label=" Broadcaster: default_authority\nAverage rate: 999.189\nBuffer length: 5.019\nMost recent transform: 1639840468.39231\nOldest transform: 1639840463.373242\n"];
+"Link_1" -> "Link_1_pas"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"Link_2_pas" -> "Link_3"[label=" Broadcaster: default_authority\nAverage rate: 999.189\nBuffer length: 5.019\nMost recent transform: 1639840468.39231\nOldest transform: 1639840463.373242\n"];
+"Link_2" -> "Link_2_pas"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "Link_1"[label=" Broadcaster: default_authority\nAverage rate: 999.189\nBuffer length: 5.019\nMost recent transform: 1639840468.39231\nOldest transform: 1639840463.373242\n"];
+"world" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"Link_3" -> "Lidar_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1639840468.3998885"[ shape=plaintext ] ;
+}->"world";
+}

@@ -1,0 +1,14 @@
+[ 13%] Built target gtest_main
+[ 26%] Built target gtest
+[ 46%] Built target joint_trajectory_controller
+[35m[1mScanning dependencies of target test_trajectory[0m
+[35m[1mScanning dependencies of target test_trajectory_actions[0m
+[35m[1mScanning dependencies of target test_trajectory_controller[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[ 60%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable test_trajectory[0m
+[ 80%] Built target test_trajectory
+[ 86%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[ 86%] Built target test_trajectory_actions

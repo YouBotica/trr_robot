@@ -1,0 +1,88 @@
+[0.023s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware
+[0.088s] -- The C compiler identification is GNU 9.3.0
+[0.161s] -- The CXX compiler identification is GNU 9.3.0
+[0.167s] -- Check for working C compiler: /usr/bin/cc
+[0.250s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.251s] -- Detecting C compiler ABI info
+[0.337s] -- Detecting C compiler ABI info - done
+[0.350s] -- Detecting C compile features
+[0.351s] -- Detecting C compile features - done
+[0.354s] -- Check for working CXX compiler: /usr/bin/c++
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.457s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.585s] -- Detecting CXX compile features
+[0.586s] -- Detecting CXX compile features - done
+[0.589s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.619s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.619s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.851s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.879s] -- Found hardware_interface: 1.2.0 (/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.922s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.931s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.005s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[1.049s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.145s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.926s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.068s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.072s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.074s] -- Looking for pthread.h
+[2.316s] -- Looking for pthread.h - found
+[2.317s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.411s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.411s] -- Looking for pthread_create in pthreads
+[2.499s] -- Looking for pthread_create in pthreads - not found
+[2.499s] -- Looking for pthread_create in pthread
+[2.638s] -- Looking for pthread_create in pthread - found
+[2.641s] -- Found Threads: TRUE  
+[3.032s] -- Found rclcpp_lifecycle: 2.3.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[3.139s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.276s] -- Configuring done
+[3.323s] -- Generating done
+[3.326s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware
+[3.344s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware
+[3.350s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware -- -j8 -l8
+[3.434s] [35m[1mScanning dependencies of target ros2_control_demo_hardware[0m
+[3.628s] [ 14%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_position_only.cpp.o[0m
+[3.641s] [ 28%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_multi_interface.cpp.o[0m
+[3.651s] [ 42%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/diffbot_system.cpp.o[0m
+[3.661s] [ 57%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_actuator.cpp.o[0m
+[3.661s] [ 71%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_with_sensor.cpp.o[0m
+[3.665s] [ 85%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/external_rrbot_force_torque_sensor.cpp.o[0m
+[14.288s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_hardware.so[0m
+[14.996s] [100%] Built target ros2_control_demo_hardware
+[15.024s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware -- -j8 -l8
+[15.098s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware
+[15.117s] -- Install configuration: ""
+[15.118s] -- Execute custom install script
+[15.120s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware//ros2_control_demo_hardware.xml
+[15.141s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/lib/libros2_control_demo_hardware.so
+[15.163s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/diffbot_system.hpp
+[15.184s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/external_rrbot_force_torque_sensor.hpp
+[15.204s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_actuator.hpp
+[15.225s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_multi_interface.hpp
+[15.245s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_position_only.hpp
+[15.266s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_with_sensor.hpp
+[15.286s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/include/ros2_control_demo_hardware/visibility_control.h
+[15.308s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/library_path.sh
+[15.329s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/library_path.dsv
+[15.350s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ament_index/resource_index/package_run_dependencies/ros2_control_demo_hardware
+[15.371s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ament_index/resource_index/parent_prefix_path/ros2_control_demo_hardware
+[15.391s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/ament_prefix_path.sh
+[15.412s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/ament_prefix_path.dsv
+[15.433s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/path.sh
+[15.454s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/environment/path.dsv
+[15.475s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/local_setup.bash
+[15.490s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/local_setup.sh
+[15.505s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/local_setup.zsh
+[15.521s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/local_setup.dsv
+[15.537s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.dsv
+[15.561s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ament_index/resource_index/packages/ros2_control_demo_hardware
+[15.582s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/ros2_control_demo_hardware
+[15.598s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.613s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ament_cmake_export_libraries-extras.cmake
+[15.630s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ament_cmake_export_dependencies-extras.cmake
+[15.652s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ros2_control_demo_hardwareConfig.cmake
+[15.674s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/cmake/ros2_control_demo_hardwareConfig-version.cmake
+[15.697s] -- Symlinking: /home/legacy/trr_robot_ws/install/ros2_control_demo_hardware/share/ros2_control_demo_hardware/package.xml
+[15.733s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware

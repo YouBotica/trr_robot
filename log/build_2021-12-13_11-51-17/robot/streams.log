@@ -1,0 +1,18 @@
+[0.552s] Invoking command in '/home/legacy/trr_robot_ws/build/robot': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/robot --editable --build-directory /home/legacy/trr_robot_ws/build/robot/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/robot
+[0.906s] running develop
+[1.097s] running egg_info
+[1.098s] writing robot.egg-info/PKG-INFO
+[1.098s] writing dependency_links to robot.egg-info/dependency_links.txt
+[1.098s] writing entry points to robot.egg-info/entry_points.txt
+[1.098s] writing requirements to robot.egg-info/requires.txt
+[1.098s] writing top-level names to robot.egg-info/top_level.txt
+[1.138s] reading manifest file 'robot.egg-info/SOURCES.txt'
+[1.139s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[1.183s] running build_ext
+[1.184s] Creating /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot.egg-link (link to .)
+[1.185s] Installing move_joints_gazebo script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+[1.185s] Installing state_publisher script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+[1.186s] 
+[1.186s] Installed /home/legacy/trr_robot_ws/build/robot
+[1.186s] running install_data
+[1.225s] Invoked command in '/home/legacy/trr_robot_ws/build/robot' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/robot --editable --build-directory /home/legacy/trr_robot_ws/build/robot/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/robot

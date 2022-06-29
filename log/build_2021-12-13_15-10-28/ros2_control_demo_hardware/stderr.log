@@ -1,0 +1,473 @@
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:19[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_with_sensor.hpp:34:42:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_interfaces[m[K’ in namespace ‘[01m[Krclcpp_lifecycle[m[K’ does not name a type
+   34 | using CallbackReturn = rclcpp_lifecycle::[01;31m[Knode_interfaces[m[K::LifecycleNodeInterface::CallbackReturn;
+      |                                          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_with_sensor.hpp:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   44 |   [01;31m[KCallbackReturn[m[K on_init(const hardware_interface::HardwareInfo & info) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_with_sensor.hpp:47:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   47 |   [01;31m[KCallbackReturn[m[K on_configure(const rclcpp_lifecycle::State & previous_state) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:19[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/external_rrbot_force_torque_sensor.hpp:43:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   43 |   [01;31m[KCallbackReturn[m[K on_init(const hardware_interface::HardwareInfo & info) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_with_sensor.hpp:56:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   56 |   [01;31m[KCallbackReturn[m[K on_activate(const rclcpp_lifecycle::State & previous_state) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/external_rrbot_force_torque_sensor.hpp:49:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   49 |   [01;31m[KCallbackReturn[m[K on_activate(const rclcpp_lifecycle::State & previous_state) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_with_sensor.hpp:59:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   59 |   [01;31m[KCallbackReturn[m[K on_deactivate(const rclcpp_lifecycle::State & previous_state) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/external_rrbot_force_torque_sensor.hpp:52:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   52 |   [01;31m[KCallbackReturn[m[K on_deactivate(const rclcpp_lifecycle::State & previous_state) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:19[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_actuator.hpp:42:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   42 |   [01;31m[KCallbackReturn[m[K on_init(const hardware_interface::HardwareInfo & info) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_actuator.hpp:51:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   51 |   [01;31m[KCallbackReturn[m[K on_activate(const rclcpp_lifecycle::State & previous_state) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_actuator.hpp:54:3:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   54 |   [01;31m[KCallbackReturn[m[K on_deactivate(const rclcpp_lifecycle::State & previous_state) override;
+      |   [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:15[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/diffbot_system.hpp:41:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::DiffBotSystemHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   41 |   CallbackReturn [01;31m[Kon_init[m[K(const hardware_interface::HardwareInfo & info) override;
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/diffbot_system.hpp:50:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::DiffBotSystemHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   50 |   CallbackReturn [01;31m[Kon_activate[m[K(const rclcpp_lifecycle::State & previous_state) override;
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/diffbot_system.hpp:53:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::DiffBotSystemHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   53 |   CallbackReturn [01;31m[Kon_deactivate[m[K(const rclcpp_lifecycle::State & previous_state) override;
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:15[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_multi_interface.hpp:42:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   42 |   CallbackReturn [01;31m[Kon_init[m[K(const hardware_interface::HardwareInfo & info) override;
+      |                  [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:15[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_position_only.hpp:41:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::RRBotSystemPositionOnlyHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   41 |   CallbackReturn [01;31m[Kon_init[m[K(const hardware_interface::HardwareInfo & info) override;
+      |                  [01;31m[K^~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_multi_interface.hpp:56:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   56 |   CallbackReturn [01;31m[Kon_activate[m[K(const rclcpp_lifecycle::State & previous_state) override;
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_position_only.hpp:44:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::RRBotSystemPositionOnlyHardware::on_configure(const rclcpp_lifecycle::State&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   44 |   CallbackReturn [01;31m[Kon_configure[m[K(const rclcpp_lifecycle::State & previous_state) override;
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_multi_interface.hpp:59:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   59 |   CallbackReturn [01;31m[Kon_deactivate[m[K(const rclcpp_lifecycle::State & previous_state) override;
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_position_only.hpp:53:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::RRBotSystemPositionOnlyHardware::on_activate(const rclcpp_lifecycle::State&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   53 |   CallbackReturn [01;31m[Kon_activate[m[K(const rclcpp_lifecycle::State & previous_state) override;
+      |                  [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_position_only.hpp:56:18:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn ros2_control_demo_hardware::RRBotSystemPositionOnlyHardware::on_deactivate(const rclcpp_lifecycle::State&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+   56 |   CallbackReturn [01;31m[Kon_deactivate[m[K(const rclcpp_lifecycle::State & previous_state) override;
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:32:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   32 | [01;31m[KCallbackReturn[m[K RRBotSystemWithSensorHardware::on_init(const hardware_interface::HardwareInfo & info)
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:92:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   92 | [01;31m[KCallbackReturn[m[K RRBotSystemWithSensorHardware::on_configure(
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> ros2_control_demo_hardware::RRBotSystemWithSensorHardware::export_state_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:122:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  122 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:129:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  129 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.sensors[0].state_interfaces.size(); i++)
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> ros2_control_demo_hardware::RRBotSystemWithSensorHardware::export_command_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:142:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  142 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:[m[K At global scope:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:151:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+  151 | [01;31m[KCallbackReturn[m[K RRBotSystemWithSensorHardware::on_activate(
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:181:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+  181 | [01;31m[KCallbackReturn[m[K RRBotSystemWithSensorHardware::on_deactivate(
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:32:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   32 | [01;31m[KCallbackReturn[m[K ExternalRRBotForceTorqueSensorHardware::on_init(
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:28[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_demo_hardware::RRBotSystemWithSensorHardware::read()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:222:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  222 |       hw_sensor_states_[i], [01;31m[Kinfo_[m[K.sensors[0].state_interfaces[i].name.c_str());
+      |                             [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> ros2_control_demo_hardware::ExternalRRBotForceTorqueSensorHardware::export_state_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:56:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+   56 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.sensors[0].state_interfaces.size(); i++)
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:[m[K At global scope:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:65:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   65 | [01;31m[KCallbackReturn[m[K ExternalRRBotForceTorqueSensorHardware::on_activate(
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:85:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   85 | [01;31m[KCallbackReturn[m[K ExternalRRBotForceTorqueSensorHardware::on_deactivate(
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:247[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ros2_control_demo_hardware::RRBotSystemWithSensorHardware; B = hardware_interface::SystemInterface][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kros2_control_demo_hardware::RRBotSystemWithSensorHardware[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:19[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_with_sensor.hpp:38:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kros2_control_demo_hardware::RRBotSystemWithSensorHardware[m[K’:
+   38 | class [01;36m[KRRBotSystemWithSensorHardware[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_with_sensor.hpp:28[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_with_sensor.cpp:19[m[K:
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:48:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::configure(const hardware_interface::HardwareInfo&)[m[K’
+   48 |   virtual return_type [01;36m[Kconfigure[m[K(const HardwareInfo & system_info) = 0;
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:116:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::start()[m[K’
+  116 |   virtual return_type [01;36m[Kstart[m[K() = 0;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:122:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::stop()[m[K’
+  122 |   virtual return_type [01;36m[Kstop[m[K() = 0;
+      |                       [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:128:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::string hardware_interface::SystemInterface::get_name() const[m[K’
+  128 |   virtual std::string [01;36m[Kget_name[m[K() const = 0;
+      |                       [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:134:18:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::status hardware_interface::SystemInterface::get_status() const[m[K’
+  134 |   virtual status [01;36m[Kget_status[m[K() const = 0;
+      |                  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:127[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ros2_control_demo_hardware::ExternalRRBotForceTorqueSensorHardware; B = hardware_interface::SensorInterface][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kros2_control_demo_hardware::ExternalRRBotForceTorqueSensorHardware[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:19[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/external_rrbot_force_torque_sensor.hpp:37:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kros2_control_demo_hardware::ExternalRRBotForceTorqueSensorHardware[m[K’:
+   37 | class [01;36m[KExternalRRBotForceTorqueSensorHardware[m[K : public hardware_interface::SensorInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/external_rrbot_force_torque_sensor.hpp:28[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/external_rrbot_force_torque_sensor.cpp:19[m[K:
+[01m[K/opt/ros/foxy/include/hardware_interface/sensor_interface.hpp:47:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SensorInterface::configure(const hardware_interface::HardwareInfo&)[m[K’
+   47 |   virtual return_type [01;36m[Kconfigure[m[K(const HardwareInfo & sensor_info) = 0;
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/sensor_interface.hpp:64:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SensorInterface::start()[m[K’
+   64 |   virtual return_type [01;36m[Kstart[m[K() = 0;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/sensor_interface.hpp:70:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SensorInterface::stop()[m[K’
+   70 |   virtual return_type [01;36m[Kstop[m[K() = 0;
+      |                       [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/sensor_interface.hpp:76:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::string hardware_interface::SensorInterface::get_name() const[m[K’
+   76 |   virtual std::string [01;36m[Kget_name[m[K() const = 0;
+      |                       [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/sensor_interface.hpp:82:18:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::status hardware_interface::SensorInterface::get_status() const[m[K’
+   82 |   virtual status [01;36m[Kget_status[m[K() const = 0;
+      |                  [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros2_control_demo_hardware.dir/build.make:102: CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_with_sensor.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/ros2_control_demo_hardware.dir/build.make:128: CMakeFiles/ros2_control_demo_hardware.dir/src/external_rrbot_force_torque_sensor.cpp.o] Error 1
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:[m[K In member function ‘[01m[KCallbackReturn ros2_control_demo_hardware::DiffBotSystemHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:34:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_init[m[K’ is not a member of ‘[01m[Khardware_interface::SystemInterface[m[K’
+   34 |   if (hardware_interface::SystemInterface::[01;31m[Kon_init[m[K(info) != CallbackReturn::SUCCESS)
+      |                                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:39:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfo[m[K’?
+   39 |   hw_start_sec_ = stod([01;31m[Kinfo_[m[K.hardware_parameters["example_param_hw_start_duration_sec"]);
+      |                        [01;31m[K^~~~~[m[K
+      |                        [32m[Kinfo[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:39:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstod[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::__cxx11::stod[m[K’?
+   39 |   hw_start_sec_ = [01;31m[Kstod[m[K(info_.hardware_parameters["example_param_hw_start_duration_sec"]);
+      |                   [01;31m[K^~~~[m[K
+      |                   [32m[Kstd::__cxx11::stod[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/diffbot_system.hpp:18[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:15[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6639:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::__cxx11::stod[m[K’ declared here
+ 6639 |   [01;36m[Kstod[m[K(const wstring& __str, size_t* __idx = 0)
+      |   [01;36m[K^~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:33:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+   33 | [01;31m[KCallbackReturn[m[K RRBotModularJoint::on_init(const hardware_interface::HardwareInfo & info)
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> ros2_control_demo_hardware::DiffBotSystemHardware::export_state_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:100:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  100 |   for (auto i = 0u; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> ros2_control_demo_hardware::RRBotModularJoint::export_state_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:92:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+   92 |     [01;31m[Kinfo_[m[K.joints[0].name, hardware_interface::HW_IF_POSITION, &hw_joint_state_));
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> ros2_control_demo_hardware::DiffBotSystemHardware::export_command_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:114:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  114 |   for (auto i = 0u; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                         [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> ros2_control_demo_hardware::RRBotModularJoint::export_command_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:102:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  102 |     [01;31m[Kinfo_[m[K.joints[0].name, hardware_interface::HW_IF_POSITION, &hw_joint_command_));
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:[m[K At global scope:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:107:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+  107 | [01;31m[KCallbackReturn[m[K RRBotModularJoint::on_activate(const rclcpp_lifecycle::State & /*previous_state*/)
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:129:1:[m[K [01;31m[Kerror: [m[K‘[01m[KCallbackReturn[m[K’ does not name a type
+  129 | [01;31m[KCallbackReturn[m[K RRBotModularJoint::on_deactivate(const rclcpp_lifecycle::State & /*previous_state*/)
+      | [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:24[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_demo_hardware::DiffBotSystemHardware::read()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:186:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  186 |       hw_velocities_[i], [01;31m[Kinfo_[m[K.joints[i].name.c_str());
+      |                          [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:29[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_demo_hardware::RRBotModularJoint::read()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:152:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  152 |     [01;31m[Kinfo_[m[K.joints[0].name.c_str());
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_demo_hardware::DiffBotSystemHardware::write()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:214:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  214 |       [01;31m[Kinfo_[m[K.joints[i].name.c_str());
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_demo_hardware::RRBotModularJoint::write()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:166:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  166 |     [01;31m[Kinfo_[m[K.joints[0].name.c_str());
+      |     [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:[m[K In member function ‘[01m[KCallbackReturn ros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:32:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_init[m[K’ is not a member of ‘[01m[Khardware_interface::SystemInterface[m[K’
+   32 |   if (hardware_interface::SystemInterface::[01;31m[Kon_init[m[K(info) != CallbackReturn::SUCCESS)
+      |                                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:37:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfo[m[K’?
+   37 |   hw_start_sec_ = stod([01;31m[Kinfo_[m[K.hardware_parameters["example_param_hw_start_duration_sec"]);
+      |                        [01;31m[K^~~~~[m[K
+      |                        [32m[Kinfo[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:37:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstod[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::__cxx11::stod[m[K’?
+   37 |   hw_start_sec_ = [01;31m[Kstod[m[K(info_.hardware_parameters["example_param_hw_start_duration_sec"]);
+      |                   [01;31m[K^~~~[m[K
+      |                   [32m[Kstd::__cxx11::stod[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_multi_interface.hpp:19[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:15[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6639:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::__cxx11::stod[m[K’ declared here
+ 6639 |   [01;36m[Kstod[m[K(const wstring& __str, size_t* __idx = 0)
+      |   [01;36m[K^~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:[m[K In member function ‘[01m[KCallbackReturn ros2_control_demo_hardware::RRBotSystemPositionOnlyHardware::on_init(const hardware_interface::HardwareInfo&)[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:31:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kon_init[m[K’ is not a member of ‘[01m[Khardware_interface::SystemInterface[m[K’
+   31 |   if (hardware_interface::SystemInterface::[01;31m[Kon_init[m[K(info) != CallbackReturn::SUCCESS)
+      |                                            [01;31m[K^~~~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:36:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinfo[m[K’?
+   36 |   hw_start_sec_ = stod([01;31m[Kinfo_[m[K.hardware_parameters["example_param_hw_start_duration_sec"]);
+      |                        [01;31m[K^~~~~[m[K
+      |                        [32m[Kinfo[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:36:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kstod[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::__cxx11::stod[m[K’?
+   36 |   hw_start_sec_ = [01;31m[Kstod[m[K(info_.hardware_parameters["example_param_hw_start_duration_sec"]);
+      |                   [01;31m[K^~~~[m[K
+      |                   [32m[Kstd::__cxx11::stod[m[K
+In file included from [01m[K/usr/include/c++/9/string:55[m[K,
+                 from [01m[K/usr/include/c++/9/stdexcept:39[m[K,
+                 from [01m[K/usr/include/c++/9/array:39[m[K,
+                 from [01m[K/usr/include/c++/9/tuple:39[m[K,
+                 from [01m[K/usr/include/c++/9/bits/unique_ptr.h:37[m[K,
+                 from [01m[K/usr/include/c++/9/memory:80[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_position_only.hpp:18[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:15[m[K:
+[01m[K/usr/include/c++/9/bits/basic_string.h:6639:3:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::__cxx11::stod[m[K’ declared here
+ 6639 |   [01;36m[Kstod[m[K(const wstring& __str, size_t* __idx = 0)
+      |   [01;36m[K^~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> ros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware::export_state_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:102:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  102 |   for (std::size_t i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> ros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware::export_command_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:119:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  119 |   for (std::size_t i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type ros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware::prepare_command_mode_switch(const std::vector<std::__cxx11::basic_string<char> >&, const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:141:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  141 |     for (std::size_t i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::StateInterface> ros2_control_demo_hardware::RRBotSystemPositionOnlyHardware::export_state_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:116:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  116 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                        [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:158:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  158 |   if (new_modes.size() != [01;31m[Kinfo_[m[K.joints.size())
+      |                           [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:173:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  173 |     for (std::size_t i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                                 [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:184:31:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  184 |   for (std::size_t i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                               [01;31m[K^~~~~[m[K
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:[m[K In member function ‘[01m[Kvirtual std::vector<hardware_interface::CommandInterface> ros2_control_demo_hardware::RRBotSystemPositionOnlyHardware::export_command_interfaces()[m[K’:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:129:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kinfo_[m[K’ was not declared in this scope
+  129 |   for (uint i = 0; i < [01;31m[Kinfo_[m[K.joints.size(); i++)
+      |                        [01;31m[K^~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:223[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ros2_control_demo_hardware::DiffBotSystemHardware; B = hardware_interface::SystemInterface][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kros2_control_demo_hardware::DiffBotSystemHardware[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:15[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/diffbot_system.hpp:35:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kros2_control_demo_hardware::DiffBotSystemHardware[m[K’:
+   35 | class [01;36m[KDiffBotSystemHardware[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/diffbot_system.hpp:24[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/diffbot_system.cpp:15[m[K:
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:48:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::configure(const hardware_interface::HardwareInfo&)[m[K’
+   48 |   virtual return_type [01;36m[Kconfigure[m[K(const HardwareInfo & system_info) = 0;
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:116:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::start()[m[K’
+  116 |   virtual return_type [01;36m[Kstart[m[K() = 0;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:122:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::stop()[m[K’
+  122 |   virtual return_type [01;36m[Kstop[m[K() = 0;
+      |                       [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:128:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::string hardware_interface::SystemInterface::get_name() const[m[K’
+  128 |   virtual std::string [01;36m[Kget_name[m[K() const = 0;
+      |                       [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:134:18:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::status hardware_interface::SystemInterface::get_status() const[m[K’
+  134 |   virtual status [01;36m[Kget_status[m[K() const = 0;
+      |                  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:175[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ros2_control_demo_hardware::RRBotModularJoint; B = hardware_interface::ActuatorInterface][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kros2_control_demo_hardware::RRBotModularJoint[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:19[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_actuator.hpp:36:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kros2_control_demo_hardware::RRBotModularJoint[m[K’:
+   36 | class [01;36m[KRRBotModularJoint[m[K : public hardware_interface::ActuatorInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_actuator.hpp:26[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_actuator.cpp:19[m[K:
+[01m[K/opt/ros/foxy/include/hardware_interface/actuator_interface.hpp:46:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::ActuatorInterface::configure(const hardware_interface::HardwareInfo&)[m[K’
+   46 |   virtual return_type [01;36m[Kconfigure[m[K(const HardwareInfo & actuator_info) = 0;
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/actuator_interface.hpp:113:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::ActuatorInterface::start()[m[K’
+  113 |   virtual return_type [01;36m[Kstart[m[K() = 0;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/actuator_interface.hpp:119:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::ActuatorInterface::stop()[m[K’
+  119 |   virtual return_type [01;36m[Kstop[m[K() = 0;
+      |                       [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/actuator_interface.hpp:125:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::string hardware_interface::ActuatorInterface::get_name() const[m[K’
+  125 |   virtual std::string [01;36m[Kget_name[m[K() const = 0;
+      |                       [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/actuator_interface.hpp:131:18:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::status hardware_interface::ActuatorInterface::get_status() const[m[K’
+  131 |   virtual status [01;36m[Kget_status[m[K() const = 0;
+      |                  [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros2_control_demo_hardware.dir/build.make:63: CMakeFiles/ros2_control_demo_hardware.dir/src/diffbot_system.cpp.o] Error 1
+make[2]: *** [CMakeFiles/ros2_control_demo_hardware.dir/build.make:115: CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_actuator.cpp.o] Error 1
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:218[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ros2_control_demo_hardware::RRBotSystemPositionOnlyHardware; B = hardware_interface::SystemInterface][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kros2_control_demo_hardware::RRBotSystemPositionOnlyHardware[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:15[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_position_only.hpp:35:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kros2_control_demo_hardware::RRBotSystemPositionOnlyHardware[m[K’:
+   35 | class [01;36m[KRRBotSystemPositionOnlyHardware[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_position_only.hpp:24[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_position_only.cpp:15[m[K:
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:48:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::configure(const hardware_interface::HardwareInfo&)[m[K’
+   48 |   virtual return_type [01;36m[Kconfigure[m[K(const HardwareInfo & system_info) = 0;
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:116:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::start()[m[K’
+  116 |   virtual return_type [01;36m[Kstart[m[K() = 0;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:122:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::stop()[m[K’
+  122 |   virtual return_type [01;36m[Kstop[m[K() = 0;
+      |                       [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:128:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::string hardware_interface::SystemInterface::get_name() const[m[K’
+  128 |   virtual std::string [01;36m[Kget_name[m[K() const = 0;
+      |                       [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:134:18:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::status hardware_interface::SystemInterface::get_status() const[m[K’
+  134 |   virtual status [01;36m[Kget_status[m[K() const = 0;
+      |                  [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+                 from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+                 from [01m[K/opt/ros/foxy/include/pluginlib/class_list_macros.hpp:40[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:321[m[K:
+/opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = ros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware; B = hardware_interface::SystemInterface][m[K’:
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[Kros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware[m[K’
+  218 |     return [01;31m[Knew C[m[K;
+      |            [01;31m[K^~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:15[m[K:
+[01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_multi_interface.hpp:36:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[Kros2_control_demo_hardware::RRBotSystemMultiInterfaceHardware[m[K’:
+   36 | class [01;36m[KRRBotSystemMultiInterfaceHardware[m[K : public hardware_interface::SystemInterface
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/include/ros2_control_demo_hardware/rrbot_system_multi_interface.hpp:25[m[K,
+                 from [01m[K/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware/src/rrbot_system_multi_interface.cpp:15[m[K:
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:48:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::configure(const hardware_interface::HardwareInfo&)[m[K’
+   48 |   virtual return_type [01;36m[Kconfigure[m[K(const HardwareInfo & system_info) = 0;
+      |                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:116:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::start()[m[K’
+  116 |   virtual return_type [01;36m[Kstart[m[K() = 0;
+      |                       [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:122:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::return_type hardware_interface::SystemInterface::stop()[m[K’
+  122 |   virtual return_type [01;36m[Kstop[m[K() = 0;
+      |                       [01;36m[K^~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:128:23:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual std::string hardware_interface::SystemInterface::get_name() const[m[K’
+  128 |   virtual std::string [01;36m[Kget_name[m[K() const = 0;
+      |                       [01;36m[K^~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/hardware_interface/system_interface.hpp:134:18:[m[K [01;36m[Knote: [m[K	‘[01m[Kvirtual hardware_interface::status hardware_interface::SystemInterface::get_status() const[m[K’
+  134 |   virtual status [01;36m[Kget_status[m[K() const = 0;
+      |                  [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/ros2_control_demo_hardware.dir/build.make:76: CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_position_only.cpp.o] Error 1
+make[2]: *** [CMakeFiles/ros2_control_demo_hardware.dir/build.make:89: CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_multi_interface.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:78: CMakeFiles/ros2_control_demo_hardware.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

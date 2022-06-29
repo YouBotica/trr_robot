@@ -1,0 +1,83 @@
+[0.018s] Invoking command in '/home/legacy/trr_robot_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/controller_interface
+[0.096s] -- The C compiler identification is GNU 9.3.0
+[0.168s] -- The CXX compiler identification is GNU 9.3.0
+[0.174s] -- Check for working C compiler: /usr/bin/cc
+[0.255s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.257s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.365s] -- Detecting C compile features
+[0.365s] -- Detecting C compile features - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++
+[0.481s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.482s] -- Detecting CXX compiler ABI info
+[0.593s] -- Detecting CXX compiler ABI info - done
+[0.608s] -- Detecting CXX compile features
+[0.608s] -- Detecting CXX compile features - done
+[0.611s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.641s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.641s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.866s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.893s] -- Found hardware_interface: 1.2.0 (/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.936s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.945s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.016s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[1.062s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.051s] -- Found rclcpp_lifecycle: 2.3.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[2.169s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.173s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.175s] -- Looking for pthread.h
+[2.344s] -- Looking for pthread.h - found
+[2.344s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.440s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.440s] -- Looking for pthread_create in pthreads
+[2.542s] -- Looking for pthread_create in pthreads - not found
+[2.542s] -- Looking for pthread_create in pthread
+[2.711s] -- Looking for pthread_create in pthread - found
+[2.714s] -- Found Threads: TRUE  
+[3.097s] -- Found ament_cmake_gmock: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[3.099s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.105s] -- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.459s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[3.467s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[3.470s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[3.548s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.551s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.553s] -- Configured cppcheck include dirs: /home/legacy/trr_robot_ws/src/ros2_control/controller_interface/include
+[3.553s] -- Configured cppcheck exclude dirs and/or files: 
+[3.555s] -- Added test 'lint_cmake' to check CMake code style
+[3.557s] -- Added test 'xmllint' to check XML markup files
+[3.570s] -- Configuring done
+[3.748s] -- Generating done
+[3.754s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/controller_interface
+[3.779s] Invoked command in '/home/legacy/trr_robot_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/controller_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/controller_interface
+[3.781s] Invoking command in '/home/legacy/trr_robot_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/controller_interface -- -j8 -l8
+[4.052s] [35m[1mScanning dependencies of target gmock[0m
+[4.060s] [35m[1mScanning dependencies of target gmock_main[0m
+[4.092s] [35m[1mScanning dependencies of target controller_interface[0m
+[4.167s] [  6%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[4.171s] [ 13%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[4.193s] [ 20%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[4.280s] [ 26%] [32mBuilding CXX object CMakeFiles/controller_interface.dir/src/controller_interface.cpp.o[0m
+[7.597s] [ 33%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[7.767s] [ 33%] Built target gmock_main
+[11.850s] [ 40%] [32m[1mLinking CXX shared library libcontroller_interface.so[0m
+[12.496s] [ 40%] Built target controller_interface
+[15.496s] [ 46%] [32m[1mLinking CXX static library libgmock.a[0m
+[15.625s] [ 46%] Built target gmock
+[15.648s] [35m[1mScanning dependencies of target test_controller_with_options[0m
+[15.649s] [35m[1mScanning dependencies of target test_force_torque_sensor[0m
+[15.649s] [35m[1mScanning dependencies of target test_semantic_component_interface[0m
+[15.649s] [35m[1mScanning dependencies of target test_imu_sensor[0m
+[15.698s] [ 53%] [32mBuilding CXX object CMakeFiles/test_semantic_component_interface.dir/test/test_semantic_component_interface.cpp.o[0m
+[15.709s] [ 60%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor.dir/test/test_force_torque_sensor.cpp.o[0m
+[15.718s] [ 66%] [32mBuilding CXX object CMakeFiles/test_imu_sensor.dir/test/test_imu_sensor.cpp.o[0m
+[15.771s] [ 73%] [32mBuilding CXX object CMakeFiles/test_controller_with_options.dir/test/test_controller_with_options.cpp.o[0m
+[18.298s] [ 80%] [32m[1mLinking CXX executable test_force_torque_sensor[0m
+[18.675s] [ 86%] [32m[1mLinking CXX executable test_semantic_component_interface[0m
+[18.692s] [ 86%] Built target test_force_torque_sensor
+[18.882s] [ 93%] [32m[1mLinking CXX executable test_imu_sensor[0m
+[19.012s] [ 93%] Built target test_semantic_component_interface
+[19.197s] [ 93%] Built target test_imu_sensor
+[19.995s] [100%] [32m[1mLinking CXX executable test_controller_with_options[0m
+[20.276s] [100%] Built target test_controller_with_options

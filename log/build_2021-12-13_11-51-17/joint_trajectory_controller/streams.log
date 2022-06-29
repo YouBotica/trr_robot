@@ -1,0 +1,70 @@
+[0.056s] Invoking command in '/home/legacy/trr_robot_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/joint_trajectory_controller
+[0.540s] -- The C compiler identification is GNU 9.3.0
+[0.540s] -- The CXX compiler identification is GNU 9.3.0
+[0.540s] -- Check for working C compiler: /usr/bin/cc
+[0.540s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.540s] -- Detecting C compiler ABI info
+[0.544s] -- Detecting C compiler ABI info - done
+[0.569s] -- Detecting C compile features
+[0.569s] -- Detecting C compile features - done
+[0.572s] -- Check for working CXX compiler: /usr/bin/c++
+[0.733s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.735s] -- Detecting CXX compiler ABI info
+[0.909s] -- Detecting CXX compiler ABI info - done
+[0.957s] -- Detecting CXX compile features
+[0.958s] -- Detecting CXX compile features - done
+[0.963s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.012s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.012s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.404s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.457s] -- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)
+[1.461s] -- Found controller_interface: 1.2.0 (/home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/cmake)
+[1.544s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.562s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.667s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[1.731s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.900s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.303s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.306s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.308s] -- Looking for pthread.h
+[3.428s] -- Looking for pthread.h - found
+[3.428s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.562s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.567s] -- Looking for pthread_create in pthreads
+[3.657s] -- Looking for pthread_create in pthreads - not found
+[3.660s] -- Looking for pthread_create in pthread
+[3.780s] -- Looking for pthread_create in pthread - found
+[3.783s] -- Found Threads: TRUE  
+[4.427s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[4.684s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[4.688s] -- Found controller_manager: 0.8.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[4.928s] -- Found ros2_control_test_assets: 1.2.0 (/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[4.949s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.954s] -- Check if compiler accepts -pthread
+[5.368s] -- Check if compiler accepts -pthread - yes
+[6.306s] -- Configuring done
+[6.940s] -- Generating done
+[6.969s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/joint_trajectory_controller
+[7.013s] Invoked command in '/home/legacy/trr_robot_ws/build/joint_trajectory_controller' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/joint_trajectory_controller
+[7.015s] Invoking command in '/home/legacy/trr_robot_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/joint_trajectory_controller -- -j8 -l8
+[12.703s] [35m[1mScanning dependencies of target joint_trajectory_controller[0m
+[12.704s] [35m[1mScanning dependencies of target gtest[0m
+[12.704s] [35m[1mScanning dependencies of target gtest_main[0m
+[12.704s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[12.704s] [ 13%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[12.705s] [ 20%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/joint_trajectory_controller.cpp.o[0m
+[12.705s] [ 26%] [32mBuilding CXX object CMakeFiles/joint_trajectory_controller.dir/src/trajectory.cpp.o[0m
+[14.917s] [ 33%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[15.290s] [ 33%] Built target gtest_main
+[26.743s] [ 40%] [32m[1mLinking CXX static library libgtest.a[0m
+[27.013s] [ 40%] Built target gtest
+[27.100s] [35m[1mScanning dependencies of target test_load_joint_trajectory_controller[0m
+[27.323s] [ 46%] [32mBuilding CXX object CMakeFiles/test_load_joint_trajectory_controller.dir/test/test_load_joint_trajectory_controller.cpp.o[0m
+[41.015s] [ 53%] [32m[1mLinking CXX shared library libjoint_trajectory_controller.so[0m
+[42.259s] [ 53%] Built target joint_trajectory_controller
+[42.893s] [ 60%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[43.391s] /home/linuxbrew/.linuxbrew/bin/ld: /opt/ros/foxy/lib/libcontroller_manager.so: undefined reference to `controller_interface::ControllerInterface::get_current_state() const'
+[43.391s] collect2: error: ld returned 1 exit status
+[43.393s] make[2]: *** [CMakeFiles/test_load_joint_trajectory_controller.dir/build.make:238: test_load_joint_trajectory_controller] Error 1
+[43.393s] make[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/test_load_joint_trajectory_controller.dir/all] Error 2
+[43.393s] make: *** [Makefile:141: all] Error 2

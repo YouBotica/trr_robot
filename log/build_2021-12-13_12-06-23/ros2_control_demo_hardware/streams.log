@@ -1,0 +1,27 @@
+[0.017s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware
+[0.034s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.267s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.275s] -- Found hardware_interface: 1.2.0 (/home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/cmake)
+[0.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.307s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.447s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.031s] -- Found rclcpp: 2.3.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.073s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.075s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.235s] -- Found rclcpp_lifecycle: 2.3.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[1.289s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.379s] -- Configuring done
+[1.408s] -- Generating done
+[1.411s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware
+[1.421s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_demo_hardware -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware
+[1.422s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_demo_hardware': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/ros2_control_demo_hardware -- -j8 -l8
+[1.490s] [35m[1mScanning dependencies of target ros2_control_demo_hardware[0m
+[1.581s] [ 14%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/diffbot_system.cpp.o[0m
+[1.582s] [ 28%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_multi_interface.cpp.o[0m
+[1.582s] [ 42%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_with_sensor.cpp.o[0m
+[1.583s] [ 57%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_system_position_only.cpp.o[0m
+[1.604s] [ 71%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/rrbot_actuator.cpp.o[0m
+[1.619s] [ 85%] [32mBuilding CXX object CMakeFiles/ros2_control_demo_hardware.dir/src/external_rrbot_force_torque_sensor.cpp.o[0m
+[9.130s] [100%] [32m[1mLinking CXX shared library libros2_control_demo_hardware.so[0m
+[9.412s] [100%] Built target ros2_control_demo_hardware

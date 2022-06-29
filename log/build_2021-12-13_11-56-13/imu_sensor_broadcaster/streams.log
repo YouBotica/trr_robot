@@ -1,0 +1,11 @@
+[0.080s] Invoking command in '/home/legacy/trr_robot_ws/build/imu_sensor_broadcaster': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/imu_sensor_broadcaster -- -j8 -l8
+[1.020s] [ 18%] Built target imu_sensor_broadcaster
+[1.020s] [ 45%] Built target gmock
+[1.021s] [ 63%] Built target gmock_main
+[1.021s] [ 81%] Built target test_imu_sensor_broadcaster
+[1.021s] [ 90%] [32m[1mLinking CXX executable test_load_imu_sensor_broadcaster[0m
+[3.242s] /home/linuxbrew/.linuxbrew/bin/ld: /opt/ros/foxy/lib/libcontroller_manager.so: undefined reference to `controller_interface::ControllerInterface::get_current_state() const'
+[3.242s] collect2: error: ld returned 1 exit status
+[3.246s] make[2]: *** [CMakeFiles/test_load_imu_sensor_broadcaster.dir/build.make:301: test_load_imu_sensor_broadcaster] Error 1
+[3.247s] make[1]: *** [CMakeFiles/Makefile2:155: CMakeFiles/test_load_imu_sensor_broadcaster.dir/all] Error 2
+[3.247s] make: *** [Makefile:141: all] Error 2

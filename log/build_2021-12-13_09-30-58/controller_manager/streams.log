@@ -1,0 +1,172 @@
+[0.015s] Invoking command in '/home/legacy/trr_robot_ws/build/controller_manager': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/controller_manager -- -j8 -l8
+[0.057s] [35m[1mScanning dependencies of target gmock[0m
+[0.057s] [35m[1mScanning dependencies of target gmock_main[0m
+[0.057s] [35m[1mScanning dependencies of target controller_manager[0m
+[0.078s] [  4%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[0.084s] [  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[0.088s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[0.135s] [ 16%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[1.161s] [ 20%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[1.197s] [ 20%] Built target gmock_main
+[2.435s] In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:15[m[K:
+[2.435s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:131:58:[m[K [01;31m[Kerror: [m[K‘[01m[Kfrom_nanoseconds[m[K’ is not a member of ‘[01m[Krclcpp::Duration[m[K’
+[2.435s]   131 |     const rclcpp::Duration & timeout = rclcpp::Duration::[01;31m[Kfrom_nanoseconds[m[K(kInfiniteTimeout));
+[2.435s]       |                                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[2.646s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1221[m[K,
+[2.647s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.647s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.647s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.647s]                  from [01m[K/home/legacy/trr_robot_ws/install/controller_interface/include/controller_interface/controller_interface.hpp:28[m[K,
+[2.647s]                  from [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:23[m[K,
+[2.647s]                  from [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:15[m[K:
+[2.647s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.647s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.647s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::ParameterValue::get<rclcpp::ParameterType>() const[m[K’
+[2.647s]   169 |     ).get<ParameterT>([01;31m[K)[m[K;
+[2.647s]       |                       [01;31m[K^[m[K
+[2.647s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/parameter.hpp:26[m[K,
+[2.647s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_parameters_interface.hpp:28[m[K,
+[2.647s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:51[m[K,
+[2.647s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.648s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.648s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.648s]                  from [01m[K/home/legacy/trr_robot_ws/install/controller_interface/include/controller_interface/controller_interface.hpp:28[m[K,
+[2.648s]                  from [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/include/controller_manager/controller_manager.hpp:23[m[K,
+[2.648s]                  from [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:15[m[K:
+[2.648s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL), const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.648s]   148 |   [01;36m[Kget[m[K() const
+[2.648s]       |   [01;36m[K^~~[m[K
+[2.648s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:148:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.648s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.648s]   159 |   [01;36m[Kget[m[K() const
+[2.648s]       |   [01;36m[K^~~[m[K
+[2.648s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:159:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.648s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE), const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.649s]   170 |   [01;36m[Kget[m[K() const
+[2.649s]       |   [01;36m[K^~~[m[K
+[2.649s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:170:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.649s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING), const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.649s]   181 |   [01;36m[Kget[m[K() const
+[2.649s]       |   [01;36m[K^~~[m[K
+[2.649s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:181:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.649s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BYTE_ARRAY), const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.649s]   193 |   [01;36m[Kget[m[K() const
+[2.649s]       |   [01;36m[K^~~[m[K
+[2.649s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:193:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.649s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_BOOL_ARRAY), const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.649s]   205 |   [01;36m[Kget[m[K() const
+[2.649s]       |   [01;36m[K^~~[m[K
+[2.650s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:205:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.650s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_INTEGER_ARRAY), const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.650s]   217 |   [01;36m[Kget[m[K() const
+[2.650s]       |   [01;36m[K^~~[m[K
+[2.650s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:217:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.650s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_DOUBLE_ARRAY), const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.650s]   229 |   [01;36m[Kget[m[K() const
+[2.650s]       |   [01;36m[K^~~[m[K
+[2.650s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:229:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.650s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<rclcpp::ParameterType type> constexpr typename std::enable_if<(type == rclcpp::PARAMETER_STRING_ARRAY), const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.650s]   241 |   [01;36m[Kget[m[K() const
+[2.650s]       |   [01;36m[K^~~[m[K
+[2.650s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:241:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.651s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.651s]   254 |   [01;36m[Kget[m[K() const
+[2.651s]       |   [01;36m[K^~~[m[K
+[2.651s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.651s] /opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_same<T, bool>::value, const bool&>::type rclcpp::ParameterValue::get() const [with type = rclcpp::ParameterType][m[K’:
+[2.651s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.651s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.651s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:254:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const bool&>[m[K’
+[2.651s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.651s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.651s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.651s]   263 |   [01;36m[Kget[m[K() const
+[2.651s]       |   [01;36m[K^~~[m[K
+[2.651s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.651s] /opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<(std::is_integral<_Tp>::value && (! std::is_same<T, bool>::value)), const long int&>::type rclcpp::ParameterValue::get() const [with type = rclcpp::ParameterType][m[K’:
+[2.652s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.652s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.652s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:263:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const long int&>[m[K’
+[2.652s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.652s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.652s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.652s]   271 |   [01;36m[Kget[m[K() const
+[2.652s]       |   [01;36m[K^~~[m[K
+[2.652s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.652s] /opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_floating_point<_Tp>::value, const double&>::type rclcpp::ParameterValue::get() const [with type = rclcpp::ParameterType][m[K’:
+[2.652s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.652s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.652s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:271:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const double&>[m[K’
+[2.652s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.652s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.653s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.653s]   279 |   [01;36m[Kget[m[K() const
+[2.653s]       |   [01;36m[K^~~[m[K
+[2.653s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.653s] /opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, std::__cxx11::basic_string<char> >::value, const std::__cxx11::basic_string<char>&>::type rclcpp::ParameterValue::get() const [with type = rclcpp::ParameterType][m[K’:
+[2.653s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.653s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.653s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:279:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::__cxx11::basic_string<char>&>[m[K’
+[2.653s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.653s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.653s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.653s]   289 |   [01;36m[Kget[m[K() const
+[2.653s]       |   [01;36m[K^~~[m[K
+[2.654s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.654s] /opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<unsigned char, std::allocator<unsigned char> >&>::value, const std::vector<unsigned char, std::allocator<unsigned char> >&>::type rclcpp::ParameterValue::get() const [with type = rclcpp::ParameterType][m[K’:
+[2.654s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.654s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.654s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:289:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<unsigned char, std::allocator<unsigned char> >&>[m[K’
+[2.654s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.654s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.654s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.654s]   299 |   [01;36m[Kget[m[K() const
+[2.654s]       |   [01;36m[K^~~[m[K
+[2.654s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.654s] /opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<bool, std::allocator<bool> >&>::value, const std::vector<bool, std::allocator<bool> >&>::type rclcpp::ParameterValue::get() const [with type = rclcpp::ParameterType][m[K’:
+[2.654s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.654s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.655s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:299:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<bool, std::allocator<bool> >&>[m[K’
+[2.655s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.655s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.655s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.655s]   309 |   [01;36m[Kget[m[K() const
+[2.655s]       |   [01;36m[K^~~[m[K
+[2.655s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.655s] /opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<long int, std::allocator<long int> >&>::value, const std::vector<long int, std::allocator<long int> >&>::type rclcpp::ParameterValue::get() const [with type = rclcpp::ParameterType][m[K’:
+[2.655s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.655s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.655s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:309:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<long int, std::allocator<long int> >&>[m[K’
+[2.655s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.655s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.655s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.656s]   319 |   [01;36m[Kget[m[K() const
+[2.656s]       |   [01;36m[K^~~[m[K
+[2.656s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.656s] /opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<double, std::allocator<double> >&>::value, const std::vector<double, std::allocator<double> >&>::type rclcpp::ParameterValue::get() const [with type = rclcpp::ParameterType][m[K’:
+[2.656s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.656s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.656s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:319:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<double, std::allocator<double> >&>[m[K’
+[2.656s] /opt/ros/foxy/include/rclcpp/node_impl.hpp: In instantiation of ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’:
+[2.656s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.656s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const[m[K’
+[2.656s]   329 |   [01;36m[Kget[m[K() const
+[2.656s]       |   [01;36m[K^~~[m[K
+[2.656s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.656s] /opt/ros/foxy/include/rclcpp/parameter_value.hpp: In substitution of ‘[01m[Ktemplate<class type> constexpr typename std::enable_if<std::is_convertible<type, const std::vector<std::__cxx11::basic_string<char> >&>::value, const std::vector<std::__cxx11::basic_string<char> >&>::type rclcpp::ParameterValue::get() const [with type = rclcpp::ParameterType][m[K’:
+[2.656s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:169:23:[m[K   required from ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = rclcpp::ParameterType; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[2.657s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:206:74:[m[K   required from here
+[2.657s] [01m[K/opt/ros/foxy/include/rclcpp/parameter_value.hpp:329:3:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, const std::vector<std::__cxx11::basic_string<char> >&>[m[K’
+[2.764s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:[m[K In member function ‘[01m[Kvoid controller_manager::ControllerManager::list_hardware_components_srv_cb(std::shared_ptr<controller_manager_msgs::srv::ListHardwareComponents_Request_<std::allocator<void> > >, std::shared_ptr<controller_manager_msgs::srv::ListHardwareComponents_Response_<std::allocator<void> > >)[m[K’:
+[2.764s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:1152:83:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.764s]  1152 |   [01;35m[Kstd::shared_ptr<controller_manager_msgs::srv::ListHardwareComponents::Response> response[m[K)
+[2.764s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[2.777s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:[m[K In member function ‘[01m[Kvoid controller_manager::ControllerManager::set_hardware_component_state_srv_cb(std::shared_ptr<controller_manager_msgs::srv::SetHardwareComponentState_Request_<std::allocator<void> > >, std::shared_ptr<controller_manager_msgs::srv::SetHardwareComponentState_Response_<std::allocator<void> > >)[m[K’:
+[2.777s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/controller_manager/src/controller_manager.cpp:1191:86:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.777s]  1191 |   [01;35m[Kstd::shared_ptr<controller_manager_msgs::srv::SetHardwareComponentState::Response> response[m[K)
+[2.777s]       |   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[3.693s] [ 24%] [32m[1mLinking CXX static library libgmock.a[0m
+[3.754s] [ 24%] Built target gmock
+[4.904s] make[2]: *** [CMakeFiles/controller_manager.dir/build.make:63: CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o] Error 1
+[4.904s] make[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/controller_manager.dir/all] Error 2
+[4.904s] make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,5 @@
+[ 18%] Built target gmock_main
+[ 45%] Built target gmock
+[ 63%] Built target joint_state_broadcaster
+[ 72%] [32m[1mLinking CXX executable test_load_joint_state_broadcaster[0m
+[ 90%] Built target test_joint_state_broadcaster

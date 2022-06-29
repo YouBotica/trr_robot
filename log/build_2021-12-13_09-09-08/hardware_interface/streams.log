@@ -1,0 +1,23 @@
+[0.011s] Invoking command in '/home/legacy/trr_robot_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/hardware_interface
+[0.027s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.304s] CMake Error at CMakeLists.txt:9 (find_package):
+[0.304s]   By not providing "Findcontrol_msgs.cmake" in CMAKE_MODULE_PATH this project
+[0.304s]   has asked CMake to find a package configuration file provided by
+[0.304s]   "control_msgs", but CMake did not find one.
+[0.304s] 
+[0.304s]   Could not find a package configuration file provided by "control_msgs" with
+[0.305s]   any of the following names:
+[0.305s] 
+[0.305s]     control_msgsConfig.cmake
+[0.305s]     control_msgs-config.cmake
+[0.305s] 
+[0.305s]   Add the installation prefix of "control_msgs" to CMAKE_PREFIX_PATH or set
+[0.305s]   "control_msgs_DIR" to a directory containing one of the above files.  If
+[0.305s]   "control_msgs" provides a separate development package or SDK, be sure it
+[0.306s]   has been installed.
+[0.306s] 
+[0.306s] 
+[0.306s] -- Configuring incomplete, errors occurred!
+[0.306s] See also "/home/legacy/trr_robot_ws/build/hardware_interface/CMakeFiles/CMakeOutput.log".
+[0.308s] Invoked command in '/home/legacy/trr_robot_ws/build/hardware_interface' returned '1': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/hardware_interface -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/hardware_interface

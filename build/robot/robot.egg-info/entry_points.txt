@@ -1,0 +1,4 @@
+[console_scripts]
+move_joints_gazebo = robot.move_joints_gazebo:main
+state_publisher = robot.state_publisher:main
+

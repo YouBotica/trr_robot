@@ -1,0 +1,13 @@
+[0.024s] Invoking command in '/home/legacy/trr_robot_ws/build/transmission_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/transmission_interface -- -j8 -l8
+[0.115s] [ 18%] Built target gmock_main
+[0.115s] [ 45%] Built target gmock
+[0.170s] [ 54%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[0.183s] [ 72%] Built target test_differential_transmission
+[0.185s] [ 90%] Built target test_four_bar_linkage_transmission
+[1.081s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/transmission_interface/test/simple_transmission_test.cpp:162:25:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[1.081s]   162 | INSTANTIATE_TEST_SUITE_P[01;31m[K([m[K
+[1.081s]       |                         [01;31m[K^[m[K
+[1.382s] make[2]: *** [CMakeFiles/test_simple_transmission.dir/build.make:63: CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o] Error 1
+[1.382s] make[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/test_simple_transmission.dir/all] Error 2
+[1.382s] make: *** [Makefile:141: all] Error 2
+[1.384s] Invoked command in '/home/legacy/trr_robot_ws/build/transmission_interface' returned '2': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/transmission_interface -- -j8 -l8

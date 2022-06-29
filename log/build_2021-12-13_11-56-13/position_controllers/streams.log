@@ -1,0 +1,45 @@
+[1.029s] Invoking command in '/home/legacy/trr_robot_ws/build/position_controllers': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_controllers/position_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/position_controllers
+[2.543s] -- The C compiler identification is GNU 9.3.0
+[2.543s] -- The CXX compiler identification is GNU 9.3.0
+[2.544s] -- Check for working C compiler: /usr/bin/cc
+[2.544s] -- Check for working C compiler: /usr/bin/cc -- works
+[2.544s] -- Detecting C compiler ABI info
+[2.867s] -- Detecting C compiler ABI info - done
+[2.942s] -- Detecting C compile features
+[2.945s] -- Detecting C compile features - done
+[2.961s] -- Check for working CXX compiler: /usr/bin/c++
+[3.194s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.198s] -- Detecting CXX compiler ABI info
+[3.374s] -- Detecting CXX compiler ABI info - done
+[3.410s] -- Detecting CXX compile features
+[3.411s] -- Detecting CXX compile features - done
+[3.420s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[3.481s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[3.481s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.980s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.063s] -- Found forward_command_controller: 0.5.1 (/opt/ros/foxy/share/forward_command_controller/cmake)
+[4.177s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.200s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.385s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[4.476s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.718s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.072s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[6.076s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.078s] -- Looking for pthread.h
+[6.194s] -- Looking for pthread.h - found
+[6.195s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.313s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[6.314s] -- Looking for pthread_create in pthreads
+[6.410s] -- Looking for pthread_create in pthreads - not found
+[6.410s] -- Looking for pthread_create in pthread
+[6.546s] -- Looking for pthread_create in pthread - found
+[6.548s] -- Found Threads: TRUE  
+[8.210s] -- Found ament_cmake_gmock: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[8.214s] -- Found controller_manager: 0.8.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[8.410s] -- Found ros2_control_test_assets: 1.2.0 (/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[8.415s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[8.423s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[8.424s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.691s] -- Configuring done
+[8.809s] -- Generating done
+[8.812s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/position_controllers

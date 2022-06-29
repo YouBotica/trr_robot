@@ -1,0 +1,35 @@
+[0.724s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --uninstall --editable --build-directory /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build
+[1.117s] running develop
+[1.303s] Removing /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2-control-test-nodes.egg-link (link to .)
+[1.332s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --uninstall --editable --build-directory /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build
+[1.333s] Invoking command in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_test_nodes': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build install --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --record /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/install.log --single-version-externally-managed
+[1.633s] running egg_info
+[1.634s] writing ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/PKG-INFO
+[1.634s] writing dependency_links to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/dependency_links.txt
+[1.634s] writing entry points to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/entry_points.txt
+[1.635s] writing requirements to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/requires.txt
+[1.635s] writing top-level names to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/top_level.txt
+[1.679s] reading manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[1.680s] writing manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[1.680s] running build
+[1.680s] running build_py
+[1.681s] copying ros2_control_test_nodes/__init__.py -> /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[1.681s] copying ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[1.681s] copying ros2_control_test_nodes/publisher_joint_trajectory_controller.py -> /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[1.681s] running install
+[1.682s] running install_lib
+[1.683s] creating /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[1.683s] copying /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/__init__.py -> /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[1.683s] copying /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[1.684s] copying /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_joint_trajectory_controller.py -> /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[1.684s] byte-compiling /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/__init__.py to __init__.cpython-38.pyc
+[1.687s] byte-compiling /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-38.pyc
+[1.688s] byte-compiling /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-38.pyc
+[1.690s] running install_data
+[1.690s] running install_egg_info
+[1.693s] Copying ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info to /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info
+[1.695s] running install_scripts
+[1.721s] Installing publisher_forward_position_controller script to /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[1.721s] Installing publisher_joint_trajectory_controller script to /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[1.721s] writing list of installed files to '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes/install.log'
+[1.763s] Invoked command in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build install --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --record /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/install.log --single-version-externally-managed

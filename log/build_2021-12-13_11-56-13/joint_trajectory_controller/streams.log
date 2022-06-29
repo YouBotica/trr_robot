@@ -1,0 +1,86 @@
+[0.076s] Invoking command in '/home/legacy/trr_robot_ws/build/joint_trajectory_controller': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/joint_trajectory_controller -- -j8 -l8
+[1.035s] [ 13%] Built target gtest_main
+[1.035s] [ 26%] Built target gtest
+[1.035s] [ 46%] Built target joint_trajectory_controller
+[1.035s] [35m[1mScanning dependencies of target test_trajectory[0m
+[1.035s] [35m[1mScanning dependencies of target test_trajectory_actions[0m
+[1.036s] [35m[1mScanning dependencies of target test_trajectory_controller[0m
+[1.036s] [ 53%] [32mBuilding CXX object CMakeFiles/test_trajectory.dir/test/test_trajectory.cpp.o[0m
+[1.036s] [ 60%] [32m[1mLinking CXX executable test_load_joint_trajectory_controller[0m
+[1.036s] [ 66%] [32mBuilding CXX object CMakeFiles/test_trajectory_actions.dir/test/test_trajectory_actions.cpp.o[0m
+[1.036s] [ 73%] [32mBuilding CXX object CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o[0m
+[2.528s] /home/linuxbrew/.linuxbrew/bin/ld: /opt/ros/foxy/lib/libcontroller_manager.so: undefined reference to `controller_interface::ControllerInterface::get_current_state() const'
+[2.529s] collect2: error: ld returned 1 exit status
+[2.534s] make[2]: *** [CMakeFiles/test_load_joint_trajectory_controller.dir/build.make:238: test_load_joint_trajectory_controller] Error 1
+[2.535s] make[1]: *** [CMakeFiles/Makefile2:220: CMakeFiles/test_load_joint_trajectory_controller.dir/all] Error 2
+[2.535s] make[1]: *** Waiting for unfinished jobs....
+[4.218s] [ 80%] [32m[1mLinking CXX executable test_trajectory[0m
+[5.076s] [ 80%] Built target test_trajectory
+[5.936s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1070:25:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[5.937s]  1070 | INSTANTIATE_TEST_SUITE_P[01;31m[K([m[K
+[5.937s]       |                         [01;31m[K^[m[K
+[5.937s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1073:58:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.937s]  1073 |     std::make_tuple(std::vector<std::string>({"position"}[01;31m[K)[m[K, std::vector<std::string>({"position"})),
+[5.937s]       |                                                          [01;31m[K^[m[K
+[5.938s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1073:98:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.938s]  1073 |     std::make_tuple(std::vector<std::string>({"position"}), std::vector<std::string>({"position"}[01;31m[K)[m[K),
+[5.938s]       |                                                                                                  [01;31m[K^[m[K
+[5.938s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1075:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.938s]  1075 |       std::vector<std::string>({"position"}[01;31m[K)[m[K, std::vector<std::string>({"position", "velocity"})),
+[5.939s]       |                                            [01;31m[K^[m[K
+[5.939s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1075:96:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.939s]  1075 |       std::vector<std::string>({"position"}), std::vector<std::string>({"position", "velocity"}[01;31m[K)[m[K),
+[5.939s]       |                                                                                                [01;31m[K^[m[K
+[5.939s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1077:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.939s]  1077 |       std::vector<std::string>({"position"}[01;31m[K)[m[K,
+[5.940s]       |                                            [01;31m[K^[m[K
+[5.940s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1078:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.940s]  1078 |       std::vector<std::string>({"position", "velocity", "acceleration"}[01;31m[K)[m[K)));
+[5.940s]       |                                                                        [01;31m[K^[m[K
+[5.940s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1081:25:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[5.940s]  1081 | INSTANTIATE_TEST_SUITE_P[01;31m[K([m[K
+[5.941s]       |                         [01;31m[K^[m[K
+[5.941s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1085:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.941s]  1085 |       std::vector<std::string>({"position", "velocity"}[01;31m[K)[m[K, std::vector<std::string>({"position"})),
+[5.941s]       |                                                        [01;31m[K^[m[K
+[5.941s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1085:96:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.941s]  1085 |       std::vector<std::string>({"position", "velocity"}), std::vector<std::string>({"position"}[01;31m[K)[m[K),
+[5.941s]       |                                                                                                [01;31m[K^[m[K
+[5.942s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1087:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.942s]  1087 |       std::vector<std::string>({"position", "velocity"}[01;31m[K)[m[K,
+[5.942s]       |                                                        [01;31m[K^[m[K
+[5.942s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1088:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.942s]  1088 |       std::vector<std::string>({"position", "velocity"}[01;31m[K)[m[K),
+[5.942s]       |                                                        [01;31m[K^[m[K
+[5.942s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1090:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.943s]  1090 |       std::vector<std::string>({"position", "velocity"}[01;31m[K)[m[K,
+[5.943s]       |                                                        [01;31m[K^[m[K
+[5.943s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1091:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.943s]  1091 |       std::vector<std::string>({"position", "velocity", "acceleration"}[01;31m[K)[m[K)));
+[5.944s]       |                                                                        [01;31m[K^[m[K
+[5.944s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1094:25:[m[K [01;31m[Kerror: [m[Kexpected constructor, destructor, or type conversion before ‘[01m[K([m[K’ token
+[5.944s]  1094 | INSTANTIATE_TEST_SUITE_P[01;31m[K([m[K
+[5.944s]       |                         [01;31m[K^[m[K
+[5.944s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1098:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.945s]  1098 |       std::vector<std::string>({"position", "velocity", "acceleration"}[01;31m[K)[m[K,
+[5.945s]       |                                                                        [01;31m[K^[m[K
+[5.945s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1099:44:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.945s]  1099 |       std::vector<std::string>({"position"}[01;31m[K)[m[K),
+[5.945s]       |                                            [01;31m[K^[m[K
+[5.946s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1101:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.946s]  1101 |       std::vector<std::string>({"position", "velocity", "acceleration"}[01;31m[K)[m[K,
+[5.946s]       |                                                                        [01;31m[K^[m[K
+[5.946s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1102:56:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.946s]  1102 |       std::vector<std::string>({"position", "velocity"}[01;31m[K)[m[K),
+[5.947s]       |                                                        [01;31m[K^[m[K
+[5.947s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1104:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.947s]  1104 |       std::vector<std::string>({"position", "velocity", "acceleration"}[01;31m[K)[m[K,
+[5.947s]       |                                                                        [01;31m[K^[m[K
+[5.947s] [01m[K/home/legacy/trr_robot_ws/src/ros2_controllers/joint_trajectory_controller/test/test_trajectory_controller.cpp:1105:72:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[5.947s]  1105 |       std::vector<std::string>({"position", "velocity", "acceleration"}[01;31m[K)[m[K)));
+[5.948s]       |                                                                        [01;31m[K^[m[K
+[9.810s] make[2]: *** [CMakeFiles/test_trajectory_controller.dir/build.make:63: CMakeFiles/test_trajectory_controller.dir/test/test_trajectory_controller.cpp.o] Error 1
+[9.810s] make[1]: *** [CMakeFiles/Makefile2:192: CMakeFiles/test_trajectory_controller.dir/all] Error 2
+[12.440s] [ 86%] [32m[1mLinking CXX executable test_trajectory_actions[0m
+[13.062s] [ 86%] Built target test_trajectory_actions
+[13.063s] make: *** [Makefile:141: all] Error 2

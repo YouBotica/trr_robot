@@ -1,0 +1,74 @@
+[0.057s] Invoking command in '/home/legacy/trr_robot_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/force_torque_sensor_broadcaster
+[0.554s] -- The C compiler identification is GNU 9.3.0
+[0.554s] -- The CXX compiler identification is GNU 9.3.0
+[0.554s] -- Check for working C compiler: /usr/bin/cc
+[0.554s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.554s] -- Detecting C compiler ABI info
+[0.555s] -- Detecting C compiler ABI info - done
+[0.556s] -- Detecting C compile features
+[0.556s] -- Detecting C compile features - done
+[0.556s] -- Check for working CXX compiler: /usr/bin/c++
+[0.721s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.724s] -- Detecting CXX compiler ABI info
+[0.882s] -- Detecting CXX compiler ABI info - done
+[0.913s] -- Detecting CXX compile features
+[0.914s] -- Detecting CXX compile features - done
+[0.921s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.968s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.968s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.373s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.423s] -- Found controller_interface: 1.2.0 (/home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/cmake)
+[1.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.517s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.653s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[1.711s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.858s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.225s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.229s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.231s] -- Looking for pthread.h
+[3.370s] -- Looking for pthread.h - found
+[3.374s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.510s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.514s] -- Looking for pthread_create in pthreads
+[3.615s] -- Looking for pthread_create in pthreads - not found
+[3.615s] -- Looking for pthread_create in pthread
+[3.753s] -- Looking for pthread_create in pthread - found
+[3.755s] -- Found Threads: TRUE  
+[4.405s] -- Found realtime_tools: 2.2.0 (/opt/ros/foxy/share/realtime_tools/cmake)
+[4.658s] -- Found ament_cmake_gmock: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[4.661s] -- Found controller_manager: 0.8.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[4.880s] -- Found ros2_control_test_assets: 1.2.0 (/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[4.886s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[4.895s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[4.897s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.162s] -- Configuring done
+[6.706s] -- Generating done
+[6.721s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/force_torque_sensor_broadcaster
+[6.768s] Invoked command in '/home/legacy/trr_robot_ws/build/force_torque_sensor_broadcaster' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_controllers/force_torque_sensor_broadcaster -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/force_torque_sensor_broadcaster
+[6.769s] Invoking command in '/home/legacy/trr_robot_ws/build/force_torque_sensor_broadcaster': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/force_torque_sensor_broadcaster -- -j8 -l8
+[7.128s] [35m[1mScanning dependencies of target gmock[0m
+[7.129s] [35m[1mScanning dependencies of target force_torque_sensor_broadcaster[0m
+[7.172s] [35m[1mScanning dependencies of target gmock_main[0m
+[7.344s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[7.345s] [ 27%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[7.352s] [ 18%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[7.444s] [ 36%] [32mBuilding CXX object CMakeFiles/force_torque_sensor_broadcaster.dir/src/force_torque_sensor_broadcaster.cpp.o[0m
+[15.943s] [ 45%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[16.295s] [ 45%] Built target gmock_main
+[27.143s] [ 54%] [32m[1mLinking CXX static library libgmock.a[0m
+[27.271s] [ 63%] [32m[1mLinking CXX shared library libforce_torque_sensor_broadcaster.so[0m
+[27.497s] [ 63%] Built target gmock
+[27.595s] [35m[1mScanning dependencies of target test_load_force_torque_sensor_broadcaster[0m
+[27.929s] [ 72%] [32mBuilding CXX object CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/test/test_load_force_torque_sensor_broadcaster.cpp.o[0m
+[28.530s] [ 72%] Built target force_torque_sensor_broadcaster
+[28.613s] [35m[1mScanning dependencies of target test_force_torque_sensor_broadcaster[0m
+[28.897s] [ 81%] [32mBuilding CXX object CMakeFiles/test_force_torque_sensor_broadcaster.dir/test/test_force_torque_sensor_broadcaster.cpp.o[0m
+[38.610s] [ 90%] [32m[1mLinking CXX executable test_load_force_torque_sensor_broadcaster[0m
+[41.005s] /home/linuxbrew/.linuxbrew/bin/ld: /opt/ros/foxy/lib/libcontroller_manager.so: undefined reference to `controller_interface::ControllerInterface::get_current_state() const'
+[41.005s] collect2: error: ld returned 1 exit status
+[41.008s] make[2]: *** [CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/build.make:301: test_load_force_torque_sensor_broadcaster] Error 1
+[41.008s] make[1]: *** [CMakeFiles/Makefile2:209: CMakeFiles/test_load_force_torque_sensor_broadcaster.dir/all] Error 2
+[41.008s] make[1]: *** Waiting for unfinished jobs....
+[45.201s] [100%] [32m[1mLinking CXX executable test_force_torque_sensor_broadcaster[0m
+[45.988s] [100%] Built target test_force_torque_sensor_broadcaster
+[45.989s] make: *** [Makefile:141: all] Error 2

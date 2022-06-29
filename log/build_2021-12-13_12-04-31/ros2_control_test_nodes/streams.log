@@ -1,0 +1,38 @@
+[0.820s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --uninstall --editable --build-directory /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build
+[1.304s] running develop
+[1.538s] Removing /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2-control-test-nodes.egg-link (link to .)
+[1.580s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --uninstall --editable --build-directory /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build
+[1.583s] Invoking command in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_test_nodes': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build install --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --record /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/install.log --single-version-externally-managed
+[1.907s] running egg_info
+[1.908s] writing ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/PKG-INFO
+[1.908s] writing dependency_links to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/dependency_links.txt
+[1.908s] writing entry points to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/entry_points.txt
+[1.909s] writing requirements to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/requires.txt
+[1.909s] writing top-level names to ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/top_level.txt
+[1.969s] reading manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[1.973s] writing manifest file '../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info/SOURCES.txt'
+[1.974s] running build
+[1.974s] running build_py
+[1.974s] creating /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build
+[1.974s] creating /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib
+[1.975s] creating /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[1.975s] copying ros2_control_test_nodes/__init__.py -> /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[1.975s] copying ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[1.975s] copying ros2_control_test_nodes/publisher_joint_trajectory_controller.py -> /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes
+[1.975s] running install
+[1.976s] running install_lib
+[1.976s] creating /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[1.976s] copying /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/__init__.py -> /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[1.976s] copying /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_forward_position_controller.py -> /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[1.977s] copying /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build/lib/ros2_control_test_nodes/publisher_joint_trajectory_controller.py -> /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes
+[1.977s] byte-compiling /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/__init__.py to __init__.cpython-38.pyc
+[1.977s] byte-compiling /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-38.pyc
+[1.977s] byte-compiling /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-38.pyc
+[1.978s] running install_data
+[1.978s] running install_egg_info
+[1.981s] Copying ../../../build/ros2_control_test_nodes/ros2_control_test_nodes.egg-info to /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2_control_test_nodes-0.0.1-py3.8.egg-info
+[1.982s] running install_scripts
+[2.009s] Installing publisher_forward_position_controller script to /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[2.010s] Installing publisher_joint_trajectory_controller script to /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[2.011s] writing list of installed files to '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes/install.log'
+[2.045s] Invoked command in '/home/legacy/trr_robot_ws/src/ros2_control_demos/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_control_test_nodes build --build-base /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build install --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --record /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/install.log --single-version-externally-managed

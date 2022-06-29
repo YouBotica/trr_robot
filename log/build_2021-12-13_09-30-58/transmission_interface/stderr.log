@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:63 (message):
+  ament_add_gmock() must be invoked with at least one source file
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_gmock/cmake/ament_add_gmock.cmake:52 (_ament_add_gmock)
+  CMakeLists.txt:26 (ament_add_gmock)
+
+
+make: *** [Makefile:410: cmake_check_build_system] Error 1

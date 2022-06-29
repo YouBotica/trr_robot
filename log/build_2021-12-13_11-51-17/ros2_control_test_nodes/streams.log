@@ -1,0 +1,18 @@
+[0.560s] Invoking command in '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --editable --build-directory /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/ros2_control_test_nodes
+[0.935s] running develop
+[1.137s] running egg_info
+[1.138s] writing ros2_control_test_nodes.egg-info/PKG-INFO
+[1.138s] writing dependency_links to ros2_control_test_nodes.egg-info/dependency_links.txt
+[1.138s] writing entry points to ros2_control_test_nodes.egg-info/entry_points.txt
+[1.138s] writing requirements to ros2_control_test_nodes.egg-info/requires.txt
+[1.138s] writing top-level names to ros2_control_test_nodes.egg-info/top_level.txt
+[1.192s] reading manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[1.193s] writing manifest file 'ros2_control_test_nodes.egg-info/SOURCES.txt'
+[1.241s] running build_ext
+[1.241s] Creating /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages/ros2-control-test-nodes.egg-link (link to .)
+[1.242s] Installing publisher_forward_position_controller script to /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[1.242s] Installing publisher_joint_trajectory_controller script to /home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/ros2_control_test_nodes
+[1.243s] 
+[1.243s] Installed /home/legacy/trr_robot_ws/build/ros2_control_test_nodes
+[1.246s] running install_data
+[1.290s] Invoked command in '/home/legacy/trr_robot_ws/build/ros2_control_test_nodes' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/ros2_control_test_nodes/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/ros2_control_test_nodes --editable --build-directory /home/legacy/trr_robot_ws/build/ros2_control_test_nodes/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/ros2_control_test_nodes

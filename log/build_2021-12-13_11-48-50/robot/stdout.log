@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing robot.egg-info/PKG-INFO
+writing dependency_links to robot.egg-info/dependency_links.txt
+writing entry points to robot.egg-info/entry_points.txt
+writing requirements to robot.egg-info/requires.txt
+writing top-level names to robot.egg-info/top_level.txt
+reading manifest file 'robot.egg-info/SOURCES.txt'
+writing manifest file 'robot.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/site.py
+Creating /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot.egg-link (link to .)
+Installing move_joints_gazebo script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+Installing state_publisher script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+
+Installed /home/legacy/trr_robot_ws/build/robot
+running install_data

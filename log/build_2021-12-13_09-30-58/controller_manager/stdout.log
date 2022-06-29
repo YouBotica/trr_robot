@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target gmock[0m
+[35m[1mScanning dependencies of target gmock_main[0m
+[35m[1mScanning dependencies of target controller_manager[0m
+[  4%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[  8%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[ 20%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[ 20%] Built target gmock_main
+[ 24%] [32m[1mLinking CXX static library libgmock.a[0m
+[ 24%] Built target gmock

@@ -1,0 +1,371 @@
+[0.044s] Invoking command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/controller_manager_msgs
+[0.804s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.804s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.805s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.805s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.805s] -- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)
+[0.806s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.806s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.807s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[0.807s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.807s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.840s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.238s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.523s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.630s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.630s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.671s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.671s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.671s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.754s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.760s] -- Added test 'lint_cmake' to check CMake code style
+[1.763s] -- Added test 'xmllint' to check XML markup files
+[1.782s] -- Configuring done
+[1.957s] -- Generating done
+[1.963s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/controller_manager_msgs
+[1.976s] Invoked command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/controller_manager_msgs -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/controller_manager_msgs
+[1.982s] Invoking command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/controller_manager_msgs -- -j8 -l8
+[2.081s] [ 12%] Built target controller_manager_msgs__rosidl_generator_c
+[2.083s] [ 12%] Built target controller_manager_msgs__cpp
+[2.142s] [ 24%] Built target controller_manager_msgs__rosidl_typesupport_c
+[2.146s] [ 36%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[2.148s] [ 48%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[2.156s] [ 60%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[2.165s] [ 72%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[2.206s] [ 84%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[2.232s] [ 84%] Built target controller_manager_msgs
+[2.256s] [ 85%] Built target controller_manager_msgs__py
+[2.298s] [ 96%] Built target controller_manager_msgs__python
+[2.339s] [ 99%] Built target controller_manager_msgs__rosidl_typesupport_c__pyext
+[2.339s] [100%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.339s] [100%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c__pyext
+[2.356s] Invoked command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/controller_manager_msgs -- -j8 -l8
+[2.634s] Invoking command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/controller_manager_msgs
+[2.645s] -- Install configuration: ""
+[2.645s] -- Execute custom install script
+[2.646s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_manager_msgs
+[2.647s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/controller_state.h
+[2.647s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__functions.h
+[2.648s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__struct.h
+[2.648s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__type_support.h
+[2.648s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__functions.h
+[2.648s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__struct.h
+[2.648s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__type_support.h
+[2.649s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__functions.h
+[2.649s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__struct.h
+[2.649s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__type_support.h
+[2.649s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/hardware_component_state.h
+[2.649s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/hardware_interface.h
+[2.650s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.650s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_controller.h
+[2.650s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_start_controller.h
+[2.651s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__functions.h
+[2.651s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__struct.h
+[2.651s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__type_support.h
+[2.651s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__functions.h
+[2.652s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__struct.h
+[2.652s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__type_support.h
+[2.652s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__functions.h
+[2.652s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__struct.h
+[2.652s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__type_support.h
+[2.653s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__functions.h
+[2.653s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__struct.h
+[2.653s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__type_support.h
+[2.653s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__functions.h
+[2.654s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__struct.h
+[2.654s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__type_support.h
+[2.654s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.h
+[2.654s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.h
+[2.655s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.h
+[2.655s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__functions.h
+[2.655s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__struct.h
+[2.655s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__type_support.h
+[2.655s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__functions.h
+[2.656s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__struct.h
+[2.656s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__type_support.h
+[2.656s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__functions.h
+[2.656s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__struct.h
+[2.657s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__type_support.h
+[2.657s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.h
+[2.657s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.h
+[2.658s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.h
+[2.658s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.h
+[2.658s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.h
+[2.658s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.h
+[2.659s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__functions.h
+[2.659s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__struct.h
+[2.659s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__type_support.h
+[2.659s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__functions.h
+[2.660s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__struct.h
+[2.660s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__type_support.h
+[2.660s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controller_types.h
+[2.660s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controllers.h
+[2.661s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_hardware_components.h
+[2.661s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_hardware_interfaces.h
+[2.661s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_configure_controller.h
+[2.661s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_controller.h
+[2.662s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_start_controller.h
+[2.662s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/reload_controller_libraries.h
+[2.662s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/set_hardware_component_state.h
+[2.662s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/switch_controller.h
+[2.663s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/unload_controller.h
+[2.663s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.sh
+[2.663s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.dsv
+[2.665s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[2.665s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[2.665s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_c.h
+[2.666s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.666s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_c.h
+[2.666s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_fastrtps_c.h
+[2.666s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_c.h
+[2.666s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_c.h
+[2.667s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_c.h
+[2.667s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_c.h
+[2.667s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_fastrtps_c.h
+[2.667s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_c.h
+[2.667s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_fastrtps_c.h
+[2.668s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_c.h
+[2.668s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[2.668s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_c.h
+[2.668s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_c.h
+[2.669s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
+[2.671s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.671s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.671s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[2.671s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.671s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.672s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.672s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_cpp.hpp
+[2.672s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_cpp.hpp
+[2.672s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_cpp.hpp
+[2.672s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.hpp
+[2.673s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.673s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.673s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.673s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_cpp.hpp
+[2.674s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[2.674s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.674s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[2.674s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.675s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[2.676s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_c.h
+[2.676s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_c.h
+[2.676s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.676s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_c.h
+[2.677s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_introspection_c.h
+[2.677s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_c.h
+[2.677s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_c.h
+[2.677s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_c.h
+[2.677s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_c.h
+[2.678s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_introspection_c.h
+[2.678s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_c.h
+[2.678s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_introspection_c.h
+[2.678s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_c.h
+[2.679s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_c.h
+[2.679s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_c.h
+[2.679s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_c.h
+[2.680s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/controller_state.hpp
+[2.681s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__builder.hpp
+[2.681s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__struct.hpp
+[2.681s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__traits.hpp
+[2.681s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__builder.hpp
+[2.681s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp
+[2.682s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp
+[2.682s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__builder.hpp
+[2.682s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp
+[2.682s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp
+[2.683s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/hardware_component_state.hpp
+[2.683s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/hardware_interface.hpp
+[2.683s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_controller.hpp
+[2.683s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/configure_start_controller.hpp
+[2.683s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__builder.hpp
+[2.684s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__struct.hpp
+[2.684s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__traits.hpp
+[2.684s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__builder.hpp
+[2.684s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__struct.hpp
+[2.685s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__traits.hpp
+[2.685s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp
+[2.685s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp
+[2.685s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp
+[2.685s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__builder.hpp
+[2.686s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__struct.hpp
+[2.686s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__traits.hpp
+[2.686s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp
+[2.686s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp
+[2.687s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp
+[2.687s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp
+[2.687s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp
+[2.687s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp
+[2.687s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__builder.hpp
+[2.688s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__struct.hpp
+[2.688s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__traits.hpp
+[2.688s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__builder.hpp
+[2.688s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__struct.hpp
+[2.688s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__traits.hpp
+[2.689s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__builder.hpp
+[2.689s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__struct.hpp
+[2.689s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__traits.hpp
+[2.689s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp
+[2.690s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp
+[2.690s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp
+[2.690s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp
+[2.690s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp
+[2.690s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp
+[2.691s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+[2.691s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+[2.691s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+[2.691s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__builder.hpp
+[2.692s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__struct.hpp
+[2.692s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__traits.hpp
+[2.692s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controller_types.hpp
+[2.692s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_controllers.hpp
+[2.692s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_hardware_components.hpp
+[2.693s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/list_hardware_interfaces.hpp
+[2.693s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_configure_controller.hpp
+[2.693s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_controller.hpp
+[2.693s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/load_start_controller.hpp
+[2.693s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/reload_controller_libraries.hpp
+[2.694s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/set_hardware_component_state.hpp
+[2.694s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/switch_controller.hpp
+[2.694s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/unload_controller.hpp
+[2.695s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[2.695s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[2.695s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_cpp.hpp
+[2.696s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.696s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/configure_start_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.696s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_cpp.hpp
+[2.696s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_cpp.hpp
+[2.697s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_cpp.hpp
+[2.697s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_cpp.hpp
+[2.697s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.697s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.697s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/load_start_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.698s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_cpp.hpp
+[2.698s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[2.698s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.698s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/include/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_cpp.hpp
+[2.699s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.sh
+[2.699s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.dsv
+[2.699s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/__init__.py
+[2.700s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/__init__.py
+[2.700s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/_controller_state.py
+[2.700s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/_hardware_component_state.py
+[2.701s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/msg/_hardware_interface.py
+[2.702s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/__init__.py
+[2.702s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_configure_controller.py
+[2.702s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_configure_start_controller.py
+[2.702s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_controller_types.py
+[2.702s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_controllers.py
+[2.703s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_hardware_components.py
+[2.703s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py
+[2.703s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_configure_controller.py
+[2.703s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_controller.py
+[2.703s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_load_start_controller.py
+[2.704s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_reload_controller_libraries.py
+[2.704s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_set_hardware_component_state.py
+[2.704s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_switch_controller.py
+[2.704s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/srv/_unload_controller.py
+[2.705s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[2.705s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[2.706s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[2.707s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__python.so
+[2.707s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.idl
+[2.707s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.idl
+[2.708s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.idl
+[2.708s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.idl
+[2.708s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController.idl
+[2.708s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.idl
+[2.709s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.idl
+[2.709s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.idl
+[2.709s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.idl
+[2.710s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController.idl
+[2.710s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.idl
+[2.710s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController.idl
+[2.711s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.idl
+[2.711s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.idl
+[2.712s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.idl
+[2.712s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.idl
+[2.712s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.msg
+[2.712s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.msg
+[2.713s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.msg
+[2.713s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.srv
+[2.713s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Request.msg
+[2.714s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController_Response.msg
+[2.714s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController.srv
+[2.715s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController_Request.msg
+[2.715s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureStartController_Response.msg
+[2.715s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.srv
+[2.716s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Request.msg
+[2.716s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers_Response.msg
+[2.716s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.srv
+[2.717s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Request.msg
+[2.717s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes_Response.msg
+[2.717s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.srv
+[2.718s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents_Request.msg
+[2.718s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents_Response.msg
+[2.718s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.srv
+[2.719s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Request.msg
+[2.719s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces_Response.msg
+[2.719s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController.srv
+[2.720s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController_Request.msg
+[2.720s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadConfigureController_Response.msg
+[2.720s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.srv
+[2.721s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Request.msg
+[2.721s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController_Response.msg
+[2.721s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController.srv
+[2.722s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController_Request.msg
+[2.722s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadStartController_Response.msg
+[2.722s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.srv
+[2.723s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Request.msg
+[2.723s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries_Response.msg
+[2.723s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.srv
+[2.724s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState_Request.msg
+[2.724s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState_Response.msg
+[2.724s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.srv
+[2.725s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Request.msg
+[2.725s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController_Response.msg
+[2.725s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.srv
+[2.726s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Request.msg
+[2.726s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController_Response.msg
+[2.726s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs
+[2.727s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/ament_index/resource_index/parent_prefix_path/controller_manager_msgs
+[2.727s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.sh
+[2.727s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.dsv
+[2.728s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.sh
+[2.728s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.dsv
+[2.728s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.bash
+[2.729s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.sh
+[2.729s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.zsh
+[2.730s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.dsv
+[2.730s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv
+[2.741s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/ament_index/resource_index/packages/controller_manager_msgs
+[2.741s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake-extras.cmake
+[2.741s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.742s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.742s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.742s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.743s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.743s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.743s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig.cmake
+[2.744s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig-version.cmake
+[2.744s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/package.xml
+[2.744s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so
+[2.745s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so
+[2.745s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so
+[2.746s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so
+[2.747s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so
+[2.779s] Compiling '/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages/controller_manager_msgs/__init__.py'...
+[2.784s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cExport.cmake
+[2.784s] -- Installing: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.784s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.784s] -- Installing: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.784s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport.cmake
+[2.785s] -- Installing: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.785s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_generator_cppExport.cmake
+[2.785s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.785s] -- Installing: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.786s] -- Up-to-date: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport.cmake
+[2.786s] -- Installing: /home/legacy/trr_robot_ws/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.790s] Invoked command in '/home/legacy/trr_robot_ws/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/controller_manager_msgs

@@ -1,0 +1,5 @@
+[ 18%] Built target gmock_main
+[ 45%] Built target gmock
+[ 63%] Built target test_four_bar_linkage_transmission
+[ 72%] [32mBuilding CXX object CMakeFiles/test_simple_transmission.dir/test/simple_transmission_test.cpp.o[0m
+[ 90%] Built target test_differential_transmission

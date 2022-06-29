@@ -1,0 +1,71 @@
+[0.530s] Invoking command in '/home/legacy/trr_robot_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/gripper_controllers
+[4.387s] -- The C compiler identification is GNU 9.3.0
+[4.387s] -- The CXX compiler identification is GNU 9.3.0
+[4.390s] -- Check for working C compiler: /usr/bin/cc
+[4.391s] -- Check for working C compiler: /usr/bin/cc -- works
+[4.391s] -- Detecting C compiler ABI info
+[4.391s] -- Detecting C compiler ABI info - done
+[4.391s] -- Detecting C compile features
+[4.391s] -- Detecting C compile features - done
+[4.391s] -- Check for working CXX compiler: /usr/bin/c++
+[4.392s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[4.392s] -- Detecting CXX compiler ABI info
+[4.392s] -- Detecting CXX compiler ABI info - done
+[4.392s] -- Detecting CXX compile features
+[4.392s] -- Detecting CXX compile features - done
+[4.392s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[4.392s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.393s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.393s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.394s] -- Found rclcpp_action: 2.3.1 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[4.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.395s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[4.395s] -- Found OpenSSL: /home/linuxbrew/.linuxbrew/Cellar/openssl@1.1/1.1.1k/lib/libcrypto.so (found version "1.1.1k")  
+[4.395s] -- Found FastRTPS: /opt/ros/foxy/include  
+[4.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.395s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[4.396s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.396s] -- Looking for pthread.h
+[4.396s] -- Looking for pthread.h - found
+[4.396s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.396s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.396s] -- Looking for pthread_create in pthreads
+[4.397s] -- Looking for pthread_create in pthreads - not found
+[4.397s] -- Looking for pthread_create in pthread
+[4.397s] -- Looking for pthread_create in pthread - found
+[4.397s] -- Found Threads: TRUE  
+[4.397s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[4.397s] -- Found control_toolbox: 2.0.2 (/opt/ros/foxy/share/control_toolbox/cmake)
+[4.397s] -- Found controller_interface: 1.2.0 (/home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/cmake)
+[5.114s] -- Found ament_cmake_gmock: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gmock/cmake)
+[5.118s] -- Found controller_manager: 0.8.1 (/opt/ros/foxy/share/controller_manager/cmake)
+[5.299s] -- Found ros2_control_test_assets: 1.2.0 (/home/legacy/trr_robot_ws/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[5.306s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.314s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[5.316s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.665s] -- Configuring done
+[5.899s] -- Generating done
+[5.904s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/gripper_controllers
+[5.953s] Invoked command in '/home/legacy/trr_robot_ws/build/gripper_controllers' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_controllers/gripper_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/gripper_controllers
+[5.954s] Invoking command in '/home/legacy/trr_robot_ws/build/gripper_controllers': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/controller_interface/lib:/home/legacy/trr_robot_ws/install/hardware_interface/lib:/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/controller_manager_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/gripper_controllers -- -j8 -l8
+[6.978s] [35m[1mScanning dependencies of target gripper_action_controller[0m
+[6.978s] [35m[1mScanning dependencies of target gmock[0m
+[6.979s] [35m[1mScanning dependencies of target gmock_main[0m
+[6.979s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[6.979s] [ 22%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[6.979s] [ 33%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/foxy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[6.979s] [ 44%] [32mBuilding CXX object CMakeFiles/gripper_action_controller.dir/src/gripper_action_controller.cpp.o[0m
+[14.186s] [ 55%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[14.572s] [ 55%] Built target gmock_main
+[27.085s] [ 66%] [32m[1mLinking CXX static library libgmock.a[0m
+[27.266s] [ 66%] Built target gmock
+[27.312s] [35m[1mScanning dependencies of target test_load_gripper_action_controllers[0m
+[27.573s] [ 77%] [32mBuilding CXX object CMakeFiles/test_load_gripper_action_controllers.dir/test/test_load_gripper_action_controllers.cpp.o[0m
+[28.295s] [ 88%] [32m[1mLinking CXX shared library libgripper_action_controller.so[0m
+[29.340s] [ 88%] Built target gripper_action_controller
+[38.543s] [100%] [32m[1mLinking CXX executable test_load_gripper_action_controllers[0m
+[40.612s] /home/linuxbrew/.linuxbrew/bin/ld: /opt/ros/foxy/lib/libcontroller_manager.so: undefined reference to `controller_interface::ControllerInterface::get_current_state() const'
+[40.612s] collect2: error: ld returned 1 exit status
+[40.615s] make[2]: *** [CMakeFiles/test_load_gripper_action_controllers.dir/build.make:218: test_load_gripper_action_controllers] Error 1
+[40.615s] make[1]: *** [CMakeFiles/Makefile2:178: CMakeFiles/test_load_gripper_action_controllers.dir/all] Error 2
+[40.615s] make: *** [Makefile:141: all] Error 2

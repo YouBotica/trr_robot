@@ -1,0 +1,40 @@
+[0.026s] Invoking command in '/home/legacy/trr_robot_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/controller_interface -- -j8 -l8
+[0.117s] [ 13%] Built target gmock_main
+[0.119s] [ 33%] Built target gmock
+[0.143s] [ 46%] Built target controller_interface
+[0.171s] [ 60%] Built target test_force_torque_sensor
+[0.176s] [ 73%] Built target test_imu_sensor
+[0.202s] [ 86%] Built target test_semantic_component_interface
+[0.210s] [100%] Built target test_controller_with_options
+[0.231s] Invoked command in '/home/legacy/trr_robot_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/controller_interface -- -j8 -l8
+[0.278s] Invoking command in '/home/legacy/trr_robot_ws/build/controller_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/controller_interface
+[0.290s] -- Install configuration: ""
+[0.290s] -- Execute custom install script
+[0.291s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/include/controller_interface/controller_interface.hpp
+[0.305s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/include/controller_interface/helpers.hpp
+[0.314s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/include/controller_interface/visibility_control.h
+[0.324s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/include/semantic_components/force_torque_sensor.hpp
+[0.336s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/include/semantic_components/imu_sensor.hpp
+[0.345s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/include/semantic_components/semantic_component_interface.hpp
+[0.356s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/lib/libcontroller_interface.so
+[0.366s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/environment/library_path.sh
+[0.376s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/environment/library_path.dsv
+[0.385s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/ament_index/resource_index/package_run_dependencies/controller_interface
+[0.394s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/ament_index/resource_index/parent_prefix_path/controller_interface
+[0.404s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.sh
+[0.412s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/environment/ament_prefix_path.dsv
+[0.421s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/environment/path.sh
+[0.430s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/environment/path.dsv
+[0.439s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/local_setup.bash
+[0.447s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/local_setup.sh
+[0.456s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/local_setup.zsh
+[0.465s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/local_setup.dsv
+[0.473s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/package.dsv
+[0.483s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/ament_index/resource_index/packages/controller_interface
+[0.492s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.501s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.509s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[0.518s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig.cmake
+[0.527s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/cmake/controller_interfaceConfig-version.cmake
+[0.535s] -- Symlinking: /home/legacy/trr_robot_ws/install/controller_interface/share/controller_interface/package.xml
+[0.545s] Invoked command in '/home/legacy/trr_robot_ws/build/controller_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/hardware_interface:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/hardware_interface/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/controller_interface

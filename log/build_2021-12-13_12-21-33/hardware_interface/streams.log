@@ -1,0 +1,148 @@
+[0.013s] Invoking command in '/home/legacy/trr_robot_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/control_msgs:/home/legacy/trr_robot_ws/install/rrbot_description:/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware:/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/diffbot_description:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/hardware_interface
+[0.028s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.231s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.238s] -- Found control_msgs: 2.5.1 (/opt/ros/foxy/share/control_msgs/cmake)
+[0.259s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.262s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.382s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.836s] -- Found pluginlib: 2.5.3 (/opt/ros/foxy/share/pluginlib/cmake)
+[0.859s] -- Found rclcpp_lifecycle: 2.3.1 (/opt/ros/foxy/share/rclcpp_lifecycle/cmake)
+[0.896s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.897s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.073s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.138s] -- Found gmock sources under '/opt/ros/foxy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[1.140s] -- Found ament_cmake_gtest: 0.9.8 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[1.141s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.156s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.159s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.159s] -- Configured cppcheck include dirs: /home/legacy/trr_robot_ws/src/ros2_control/hardware_interface/include
+[1.159s] -- Configured cppcheck exclude dirs and/or files: 
+[1.160s] -- Added test 'lint_cmake' to check CMake code style
+[1.161s] -- Added test 'xmllint' to check XML markup files
+[1.166s] -- Configuring done
+[1.222s] -- Generating done
+[1.225s] -- Build files have been written to: /home/legacy/trr_robot_ws/build/hardware_interface
+[1.233s] Invoked command in '/home/legacy/trr_robot_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/control_msgs:/home/legacy/trr_robot_ws/install/rrbot_description:/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware:/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/diffbot_description:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/legacy/trr_robot_ws/src/ros2_control/hardware_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/legacy/trr_robot_ws/install/hardware_interface
+[1.234s] Invoking command in '/home/legacy/trr_robot_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/control_msgs:/home/legacy/trr_robot_ws/install/rrbot_description:/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware:/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/diffbot_description:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/hardware_interface -- -j8 -l8
+[1.278s] [35m[1mScanning dependencies of target hardware_interface[0m
+[1.289s] [ 14%] Built target gmock_main
+[1.289s] [ 14%] Built target gmock
+[1.305s] [ 17%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/system.cpp.o[0m
+[1.306s] [ 20%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/resource_manager.cpp.o[0m
+[1.306s] [ 23%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/actuator.cpp.o[0m
+[1.306s] [ 26%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/component_parser.cpp.o[0m
+[1.307s] [35m[1mScanning dependencies of target test_macros[0m
+[1.308s] [ 29%] [32mBuilding CXX object CMakeFiles/hardware_interface.dir/src/sensor.cpp.o[0m
+[1.333s] [ 32%] [32mBuilding CXX object CMakeFiles/test_macros.dir/test/test_macros.cpp.o[0m
+[2.876s] [ 35%] [32m[1mLinking CXX executable test_macros[0m
+[3.095s] [ 35%] Built target test_macros
+[6.154s] [ 38%] [32m[1mLinking CXX shared library libhardware_interface.so[0m
+[6.433s] [ 38%] Built target hardware_interface
+[6.455s] [35m[1mScanning dependencies of target test_joint_handle[0m
+[6.455s] [35m[1mScanning dependencies of target test_component_interfaces[0m
+[6.456s] [35m[1mScanning dependencies of target test_generic_system[0m
+[6.456s] [35m[1mScanning dependencies of target test_component_parser[0m
+[6.457s] [35m[1mScanning dependencies of target test_components[0m
+[6.460s] [35m[1mScanning dependencies of target test_hardware_components[0m
+[6.461s] [35m[1mScanning dependencies of target test_resource_manager[0m
+[6.463s] [35m[1mScanning dependencies of target fake_components[0m
+[6.491s] [ 41%] [32mBuilding CXX object CMakeFiles/test_component_parser.dir/test/test_component_parser.cpp.o[0m
+[6.492s] [ 44%] [32mBuilding CXX object CMakeFiles/test_joint_handle.dir/test/test_handle.cpp.o[0m
+[6.494s] [ 47%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_actuator.cpp.o[0m
+[6.497s] [ 50%] [32mBuilding CXX object CMakeFiles/test_generic_system.dir/test/fake_components/test_generic_system.cpp.o[0m
+[6.504s] [ 52%] [32mBuilding CXX object CMakeFiles/test_component_interfaces.dir/test/test_component_interfaces.cpp.o[0m
+[6.508s] [ 55%] [32mBuilding CXX object CMakeFiles/fake_components.dir/src/fake_components/generic_system.cpp.o[0m
+[6.520s] [ 58%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_single_joint_actuator.cpp.o[0m
+[6.526s] [ 61%] [32mBuilding CXX object CMakeFiles/test_resource_manager.dir/test/test_resource_manager.cpp.o[0m
+[7.241s] In file included from [01m[K/home/legacy/trr_robot_ws/src/ros2_control/hardware_interface/src/fake_components/generic_system.cpp:17[m[K:
+[7.241s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/hardware_interface/include/fake_components/generic_system.hpp:102:5:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-fconcepts[m[K’
+[7.241s]   102 |     [01;35m[Kauto[m[K & target_interfaces, bool using_state_interfaces);
+[7.241s]       |     [01;35m[K^~~~[m[K
+[7.510s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/hardware_interface/src/fake_components/generic_system.cpp:443:3:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-fconcepts[m[K’
+[7.511s]   443 |   [01;35m[Kauto[m[K & target_interfaces, bool using_state_interfaces)
+[7.511s]       |   [01;35m[K^~~~[m[K
+[8.687s] [ 64%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_sensor.cpp.o[0m
+[8.807s] [ 67%] [32m[1mLinking CXX executable test_joint_handle[0m
+[8.930s] In file included from [01m[K/opt/ros/foxy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:47[m[K,
+[8.930s]                  from [01m[K/opt/ros/foxy/src/gmock_vendor/include/gmock/gmock-actions.h:49[m[K,
+[8.930s]                  from [01m[K/opt/ros/foxy/src/gmock_vendor/include/gmock/gmock.h:59[m[K,
+[8.930s]                  from [01m[K/home/legacy/trr_robot_ws/src/ros2_control/hardware_interface/test/fake_components/test_generic_system.cpp:17[m[K:
+[8.930s] /opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h: In instantiation of ‘[01m[Ktesting::AssertionResult testing::internal::CmpHelperEQ(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int][m[K’:
+[8.931s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1495:23:[m[K   required from ‘[01m[Kstatic testing::AssertionResult testing::internal::EqHelper<lhs_is_null_literal>::Compare(const char*, const char*, const T1&, const T2&) [with T1 = int; T2 = long unsigned int; bool lhs_is_null_literal = false][m[K’
+[8.931s] [01m[K/home/legacy/trr_robot_ws/src/ros2_control/hardware_interface/test/fake_components/test_generic_system.cpp:1115:3:[m[K   required from here
+[8.931s] [01m[K/opt/ros/foxy/src/gtest_vendor/include/gtest/gtest.h:1467:11:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kconst int[m[K’ and ‘[01m[Kconst long unsigned int[m[K’ [[01;35m[K-Wsign-compare[m[K]
+[8.931s]  1467 |   if ([01;35m[Klhs == rhs[m[K) {
+[8.931s]       |       [01;35m[K~~~~^~~~~~[m[K
+[9.299s] [ 67%] Built target test_joint_handle
+[9.354s] [ 70%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_force_torque_sensor.cpp.o[0m
+[9.417s] [ 73%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_two_joint_system.cpp.o[0m
+[9.673s] [ 76%] [32m[1mLinking CXX shared library libfake_components.so[0m
+[10.118s] [ 76%] Built target fake_components
+[10.159s] [ 79%] [32mBuilding CXX object CMakeFiles/test_hardware_components.dir/test/test_hardware_components/test_system_with_command_modes.cpp.o[0m
+[10.742s] [ 82%] [32mBuilding CXX object CMakeFiles/test_components.dir/test/test_components/test_system.cpp.o[0m
+[11.273s] [ 85%] [32m[1mLinking CXX executable test_generic_system[0m
+[11.308s] [ 88%] [32m[1mLinking CXX executable test_component_interfaces[0m
+[11.855s] [ 91%] [32m[1mLinking CXX executable test_resource_manager[0m
+[12.107s] [ 91%] Built target test_generic_system
+[12.217s] [ 91%] Built target test_component_interfaces
+[12.358s] [ 91%] Built target test_resource_manager
+[12.443s] [ 94%] [32m[1mLinking CXX executable test_component_parser[0m
+[12.703s] [ 97%] [32m[1mLinking CXX shared library libtest_hardware_components.so[0m
+[12.736s] [100%] [32m[1mLinking CXX shared library libtest_components.so[0m
+[12.905s] [100%] Built target test_component_parser
+[12.935s] [100%] Built target test_components
+[12.941s] [100%] Built target test_hardware_components
+[12.952s] Invoked command in '/home/legacy/trr_robot_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/control_msgs:/home/legacy/trr_robot_ws/install/rrbot_description:/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware:/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/diffbot_description:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/legacy/trr_robot_ws/build/hardware_interface -- -j8 -l8
+[13.016s] Invoking command in '/home/legacy/trr_robot_ws/build/hardware_interface': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/control_msgs:/home/legacy/trr_robot_ws/install/rrbot_description:/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware:/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/diffbot_description:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/hardware_interface
+[13.025s] -- Install configuration: ""
+[13.025s] -- Execute custom install script
+[13.026s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface//fake_components_plugin_description.xml
+[13.026s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/fake_components/generic_system.hpp
+[13.027s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/fake_components/visibility_control.h
+[13.027s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/actuator.hpp
+[13.027s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/actuator_interface.hpp
+[13.027s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/component_parser.hpp
+[13.027s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/controller_info.hpp
+[13.028s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/handle.hpp
+[13.028s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/hardware_info.hpp
+[13.028s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/loaned_command_interface.hpp
+[13.028s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/loaned_state_interface.hpp
+[13.028s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/macros.hpp
+[13.029s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/resource_manager.hpp
+[13.029s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/sensor.hpp
+[13.029s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/sensor_interface.hpp
+[13.029s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/system.hpp
+[13.030s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/system_interface.hpp
+[13.030s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_return_values.hpp
+[13.030s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/types/hardware_interface_type_values.hpp
+[13.030s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/types/lifecycle_state_names.hpp
+[13.030s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/include/hardware_interface/visibility_control.h
+[13.031s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/lib/libfake_components.so
+[13.031s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/lib/libhardware_interface.so
+[13.032s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/lib/libtest_components.so
+[13.032s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/test/test_components/test_components.xml
+[13.032s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/lib/libtest_hardware_components.so
+[13.033s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/test/test_hardware_components/test_hardware_components.xml
+[13.033s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/environment/library_path.sh
+[13.033s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/environment/library_path.dsv
+[13.034s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/ament_index/resource_index/package_run_dependencies/hardware_interface
+[13.034s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/ament_index/resource_index/parent_prefix_path/hardware_interface
+[13.034s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.sh
+[13.035s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/environment/ament_prefix_path.dsv
+[13.035s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/environment/path.sh
+[13.035s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/environment/path.dsv
+[13.035s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/local_setup.bash
+[13.036s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/local_setup.sh
+[13.036s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/local_setup.zsh
+[13.036s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/local_setup.dsv
+[13.036s] -- Symlinking: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.dsv
+[13.046s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/ament_index/resource_index/packages/hardware_interface
+[13.046s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/hardware_interface
+[13.047s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.047s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[13.047s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.047s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig.cmake
+[13.047s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/cmake/hardware_interfaceConfig-version.cmake
+[13.048s] -- Up-to-date symlink: /home/legacy/trr_robot_ws/install/hardware_interface/share/hardware_interface/package.xml
+[13.050s] Invoked command in '/home/legacy/trr_robot_ws/build/hardware_interface' returned '0': AMENT_PREFIX_PATH=/home/legacy/trr_robot_ws/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/legacy/trr_robot_ws/install/ros2_control_test_assets:/home/legacy/trr_robot_ws/install/control_msgs:/home/legacy/trr_robot_ws/install/rrbot_description:/home/legacy/trr_robot_ws/install/ros2_control_demo_hardware:/home/legacy/trr_robot_ws/install/controller_interface:/home/legacy/trr_robot_ws/install/hardware_interface:/home/legacy/trr_robot_ws/install/diffbot_description:/home/legacy/trr_robot_ws/install/controller_manager_msgs:/home/legacy/trr_robot_ws/install/ros2controlcli:/home/legacy/trr_robot_ws/install/ros2_control_test_nodes:/home/legacy/trr_robot_ws/install/robot:/opt/ros/foxy LD_LIBRARY_PATH=/home/legacy/trr_robot_ws/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/legacy/trr_robot_ws/install/control_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/legacy/trr_robot_ws/build/hardware_interface

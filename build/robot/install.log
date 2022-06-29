@@ -1,0 +1,34 @@
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/__init__.py
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/move_joints_gazebo.py
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/state_publisher.py
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/__pycache__/__init__.cpython-38.pyc
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/__pycache__/move_joints_gazebo.cpython-38.pyc
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/__pycache__/state_publisher.cpython-38.pyc
+/home/legacy/trr_robot_ws/install/robot/share/ament_index/resource_index/packages/robot
+/home/legacy/trr_robot_ws/install/robot/share/robot/package.xml
+/home/legacy/trr_robot_ws/install/robot/share/robot/control_robot.launch.py
+/home/legacy/trr_robot_ws/install/robot/share/robot/gazebo_robot.launch.py
+/home/legacy/trr_robot_ws/install/robot/share/robot/display.launch.py
+/home/legacy/trr_robot_ws/install/robot/share/robot/trr_sw.urdf
+/home/legacy/trr_robot_ws/install/robot/share/robot/trr.urdf.xml
+/home/legacy/trr_robot_ws/install/robot/share/robot/trr_sw (copy).urdf
+/home/legacy/trr_robot_ws/install/robot/share/robot/trr_sw (mmmm).urdf
+/home/legacy/trr_robot_ws/install/robot/share/robot/config_rviz.rviz
+/home/legacy/trr_robot_ws/install/robot/share/robot/joint_controller.yaml
+/home/legacy/trr_robot_ws/install/robot/share/robot/Link_1_pas.STL
+/home/legacy/trr_robot_ws/install/robot/share/robot/Link_2.STL
+/home/legacy/trr_robot_ws/install/robot/share/robot/Link_2_pas.STL
+/home/legacy/trr_robot_ws/install/robot/share/robot/Link_1.STL
+/home/legacy/trr_robot_ws/install/robot/share/robot/Link_3.STL
+/home/legacy/trr_robot_ws/install/robot/share/robot/base_link.STL
+/home/legacy/trr_robot_ws/install/robot/share/robot/world_trr
+/home/legacy/trr_robot_ws/install/robot/share/robot/trr_world.world
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info/PKG-INFO
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info/top_level.txt
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info/zip-safe
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info/entry_points.txt
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info/SOURCES.txt
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info/dependency_links.txt
+/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info/requires.txt
+/home/legacy/trr_robot_ws/install/robot/lib/robot/move_joints_gazebo
+/home/legacy/trr_robot_ws/install/robot/lib/robot/state_publisher

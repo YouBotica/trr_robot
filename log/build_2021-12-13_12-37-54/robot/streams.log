@@ -1,0 +1,19 @@
+[0.220s] Invoking command in '/home/legacy/trr_robot_ws/build/robot': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/robot --editable --build-directory /home/legacy/trr_robot_ws/build/robot/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/robot
+[0.427s] running develop
+[0.549s] running egg_info
+[0.549s] writing robot.egg-info/PKG-INFO
+[0.549s] writing dependency_links to robot.egg-info/dependency_links.txt
+[0.549s] writing entry points to robot.egg-info/entry_points.txt
+[0.549s] writing requirements to robot.egg-info/requires.txt
+[0.549s] writing top-level names to robot.egg-info/top_level.txt
+[0.577s] reading manifest file 'robot.egg-info/SOURCES.txt'
+[0.578s] writing manifest file 'robot.egg-info/SOURCES.txt'
+[0.608s] running build_ext
+[0.608s] Creating /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot.egg-link (link to .)
+[0.609s] Installing move_joints_gazebo script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+[0.609s] Installing state_publisher script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+[0.609s] 
+[0.609s] Installed /home/legacy/trr_robot_ws/build/robot
+[0.609s] running install_data
+[0.609s] copying urdf/trr.urdf.xml -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.635s] Invoked command in '/home/legacy/trr_robot_ws/build/robot' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/legacy/trr_robot_ws/install/robot --editable --build-directory /home/legacy/trr_robot_ws/build/robot/build --no-deps install_data --install-dir /home/legacy/trr_robot_ws/install/robot

@@ -1,0 +1,58 @@
+[0.235s] Invoking command in '/home/legacy/trr_robot_ws/src/robot': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/legacy/trr_robot_ws/build/robot/build install --prefix /home/legacy/trr_robot_ws/install/robot --record /home/legacy/trr_robot_ws/build/robot/install.log --single-version-externally-managed
+[0.444s] running egg_info
+[0.444s] creating ../../build/robot/robot.egg-info
+[0.444s] writing ../../build/robot/robot.egg-info/PKG-INFO
+[0.444s] writing dependency_links to ../../build/robot/robot.egg-info/dependency_links.txt
+[0.444s] writing entry points to ../../build/robot/robot.egg-info/entry_points.txt
+[0.445s] writing requirements to ../../build/robot/robot.egg-info/requires.txt
+[0.445s] writing top-level names to ../../build/robot/robot.egg-info/top_level.txt
+[0.446s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.478s] reading manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.479s] writing manifest file '../../build/robot/robot.egg-info/SOURCES.txt'
+[0.479s] running build
+[0.480s] running build_py
+[0.480s] creating /home/legacy/trr_robot_ws/build/robot/build
+[0.480s] creating /home/legacy/trr_robot_ws/build/robot/build/lib
+[0.480s] creating /home/legacy/trr_robot_ws/build/robot/build/lib/robot
+[0.480s] copying robot/__init__.py -> /home/legacy/trr_robot_ws/build/robot/build/lib/robot
+[0.480s] copying robot/move_joints_gazebo.py -> /home/legacy/trr_robot_ws/build/robot/build/lib/robot
+[0.480s] copying robot/state_publisher.py -> /home/legacy/trr_robot_ws/build/robot/build/lib/robot
+[0.480s] running install
+[0.480s] running install_lib
+[0.481s] creating /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot
+[0.482s] copying /home/legacy/trr_robot_ws/build/robot/build/lib/robot/__init__.py -> /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot
+[0.482s] copying /home/legacy/trr_robot_ws/build/robot/build/lib/robot/move_joints_gazebo.py -> /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot
+[0.482s] copying /home/legacy/trr_robot_ws/build/robot/build/lib/robot/state_publisher.py -> /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot
+[0.482s] byte-compiling /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/__init__.py to __init__.cpython-38.pyc
+[0.483s] byte-compiling /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/move_joints_gazebo.py to move_joints_gazebo.cpython-38.pyc
+[0.484s] byte-compiling /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot/state_publisher.py to state_publisher.cpython-38.pyc
+[0.485s] running install_data
+[0.485s] creating /home/legacy/trr_robot_ws/install/robot/share/ament_index
+[0.486s] creating /home/legacy/trr_robot_ws/install/robot/share/ament_index/resource_index
+[0.486s] creating /home/legacy/trr_robot_ws/install/robot/share/ament_index/resource_index/packages
+[0.486s] copying resource/robot -> /home/legacy/trr_robot_ws/install/robot/share/ament_index/resource_index/packages
+[0.486s] copying package.xml -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.486s] copying launch/control_robot.launch.py -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.486s] copying launch/gazebo_robot.launch.py -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.486s] copying launch/display.launch.py -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.486s] copying urdf/trr_sw.urdf -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.486s] copying urdf/trr.urdf.xml -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.486s] copying urdf/trr_sw (copy).urdf -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.487s] copying urdf/trr_sw (mmmm).urdf -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.487s] copying urdf/config_rviz.rviz -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.487s] copying config/joint_controller.yaml -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.488s] copying meshes/Link_1_pas.STL -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.488s] copying meshes/Link_2.STL -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.488s] copying meshes/Link_2_pas.STL -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.488s] copying meshes/Link_1.STL -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.488s] copying meshes/Link_3.STL -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.488s] copying meshes/base_link.STL -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.488s] copying worlds/world_trr -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.488s] copying worlds/trr_world.world -> /home/legacy/trr_robot_ws/install/robot/share/robot
+[0.489s] running install_egg_info
+[0.490s] Copying ../../build/robot/robot.egg-info to /home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages/robot-0.0.0-py3.8.egg-info
+[0.491s] running install_scripts
+[0.506s] Installing move_joints_gazebo script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+[0.507s] Installing state_publisher script to /home/legacy/trr_robot_ws/install/robot/lib/robot
+[0.507s] writing list of installed files to '/home/legacy/trr_robot_ws/build/robot/install.log'
+[0.524s] Invoked command in '/home/legacy/trr_robot_ws/src/robot' returned '0': PYTHONPATH=/home/legacy/trr_robot_ws/install/robot/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/robot build --build-base /home/legacy/trr_robot_ws/build/robot/build install --prefix /home/legacy/trr_robot_ws/install/robot --record /home/legacy/trr_robot_ws/build/robot/install.log --single-version-externally-managed
